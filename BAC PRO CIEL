@@ -1,0 +1,62 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+style: .btcolore a, a:link, a:visited{color:#283747 !important;} .btcolore:hover {background-color:#C70039;color:#fff !important} .btcolore{background-color:;font-size:16px;margin:4px;padding:5px 10px;text-align:center;text-decoration:none;margin-left:20px;font-size:.95em;display:inline-block;border-radius:12px;border:1px solid #283747;} 
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_926521da4da106e35348ce4f1716e69b.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_60792746fe80e7b8b2aca00f0cd91573.png
+tags: Bac pro CIEL, chatbot
+---
+
+# BAC PRO CIEL
+
+Voici un ChatBot pour réviser et apprendre les différente matière du bac pro CIEL
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_05d67123f8b6d9223a5f43d685dedea7.png)
+
+1. [Table des matière](menu)
+
+## menu
+
+1. [Matière pro](pro)
+2. [Matière général](général)
+
+## pro
+
+1. [Language de programation](langue)
+2. [réseaux informatique](réseau info)
+
+## réseau info
+
+<iframe src="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/e955314892914ebed0d16b10255e5205fb0c694b/Reseau%20informatique" style="border:0; width:100%; height:700px"></iframe>
+
+1. [Table des matière](menu)
+
+## langue
+
+Découvrer le bot d'apprentissage du python dans une nouvelle page (avec target="_blank" tu peux charger le bot directement dans une nouvelle page, avec target="_parent" tu peux charger le bot directement dans la page // finalement ça n'a pas l'air de fonctionner) C'est à voir ...
+
+En tous cas bon début de travail l'idée est intéressante :+1: 
+
+Vers le bot extérieur chargé dans la page : 
+
+<a class="btcolore" href="https://chatmd.forge.apps.education.fr/#https://codimd.apps.education.fr/s/Y72fJjIjn" target="_parent">vers un bot chargé dans la même page</a>
+
+Vers le bot extérieur chargé dans une nouvelle page : 
+
+<a class="btcolore" href="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/7278b1fe6b2568aa8c201cc2d1642329251c31ed/Python.md" target="_blank">Bot d'apprentissage du Python dans une nouvelle page</a>
+
+ou en iframe dans ce bot : 
+
+1. [Python](python)
+
+
+
+## python
+
+<iframe src="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/7278b1fe6b2568aa8c201cc2d1642329251c31ed/Python.md" style="border:0; width:100%; height:700px"></iframe>
+
+1. [Table des matière](menu)
+
+## général
