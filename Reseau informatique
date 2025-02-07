@@ -1,0 +1,196 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: false
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_634b889787263b8c10f43f2e45b88ec8.png 
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_634b889787263b8c10f43f2e45b88ec8.png
+contenuDynamique: true 
+bots:
+    nomBot1:
+        avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_a7425e8200724185a2c763b71f3b1255.png
+        cssAvatar: "CSS particulier pour l'avatar du Bot1"
+        cssMessage: "CSS particulier pour les messages du Bot1"
+    nomBot2:
+        avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_220c7f41aae500cdbc3c69d8f4934f12.png
+
+        cssAvatar: "CSS particulier pour l'avatar du Bot2"
+        cssMessage: "CSS particulier pour les messages du Bot2"
+
+
+
+
+tags: RUPN Chatbot Reseau informatique, chatbot
+---
+
+# Reseau informatique 
+
+<span style="color: #E30037;font-size: 25px">**Utilisation du reseau informatique** </span>
+
+Bienvenue sur le chatbot d'aide à l'utilisation du reseau informatique.
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_f40fa5a34b90d1ebe9d0ebbc242169f3.png)
+
+Liens vers la documentation https://codimd.apps.education.fr/s/Q3TqxlnF4
+
+8. [menu](bienvenue sur le chatbot principal)
+ Quel est ton nom?
+
+
+`@nom = @INPUT : bienvenue sur le chatbot principal`
+
+## bienvenue sur le chatbot principal
+
+
+
+bonjour `@nom`
+
+1. [deuxiéme bot: assistance technique](bot2)
+2. [Qu'est ce que c'est un réseau informatique](Menu)
+3. [Qu'est ce que ont peut trouver des un réseau informatique](Menu1)
+5. [Combien il y a de réseau informatique](Menu2)
+6. [C'est quoi un Sous réseau](Menu3)
+7. [l'histoire du réseau informatique](Menu4)
+8. [QUIZZ](Menu5)
+9. [Autre chatbot](menu16)
+
+## bot2
+!Bot: nomBot2
+
+Bonjour je suis Tim Berners-Lee l'inventeur du World Wide Web.
+1. [Quesque le World Wide Web](menu15)
+j'ai quelque question pour toi pour savoir si tu a bien tout compris.
+pour accéder au QUIZZ:
+
+2. [QUIZZ](Menu5)
+
+
+
+
+## Menu
+
+Bonjour voici se que c'est un réseau informatique
+
+Le réseau informatique désigne les appareils informatiques interconnéctés qui peuvent échanger des donnés et partager des ressources entre eux.
+
+
+## Menu1
+
+**Composants d'un réseau informatique**
+
+Un réseau informatique est constitué d'appareils interconnectés tels que des ordinateurs, des serveurs, des imprimantes et des routeurs.
+
+Les dispositifs de réseau incluent des commutateurs (switches) qui permettent la communication entre les appareils et des routeurs qui dirigent les données entre différents réseaux.
+
+Les connexions peuvent être établies par des câbles physiques ou des connexions sans fil, facilitant le partage de ressources et d'informations.
+
+## Menu2
+
+**Les principaux types de réseaux informatiques**
+
+Le réseau LAN ( Local Area Network ); le réseau MAN (Metropolitan Area Network); Le réseau WAN (Wide Area Network); Le réseau GAN (Global Area Network).
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_2f5702d7a88ec65d35bb8c61cbd9aa3b.png)
+
+
+## Menu3
+
+Un réseau ou sous-réseau peut être composé de plusieurs réseaux ou sous réseaux à base d'équipements matériels.
+
+Dans le protocole IP, les membres d'un même sous réseau ou réseau, possèdent le même identifiant, calculable à partir de l'adresse IP et du masque de sous réseau.
+
+L'utilisation d'une architecture comprenant des sous-réseaux permet une gestion du parc informatique plus aisée (un sous-réseau par service ou par salle, par exemple) ou un broadcast sélectif.
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_c59769f6abe619b1b2791bc675def8b6.png)
+
+Vidéos explicatif : 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dCWDq2Ty00g?si=Vg7gO5rdC0OZ4tkC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Menu4
+
+**Histoire des Réseaux Informatiques**
+
+Les réseaux informatiques ont débuté dans les années 1960 avec des projets expérimentaux, évoluant vers des infrastructures complexes et omniprésentes.
+
+Ils ont révolutionné les communications modernes, permettant l'échange d'informations sous diverses formes (données, voix, vidéos).
+
+L'avenir des réseaux est prometteur avec des technologies comme la 5G, l'IoT et l'intelligence artificielle, qui transformeront encore davantage la société numérique.
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_9779fee274758bfec64a76a3a73af5d9.png)
+
+## Menu5
+!Bot: nomBot2
+
+**Ce QUIZZ est la pour savoir si tu a bien tout compris.**
+
+1. [c'est quoi un réseau informatique](menu6)
+2. [Combien il y a de catégorie de réseau informatique](menu7)
+3. [C'est quoi un Sous réseau](menu8)
+
+
+## menu6
+!Bot: nomBot2
+
+1. [Des appareils informatiques interconnecté](menu9)
+2. [Des appareils relié ensemble](menu10)
+
+## menu9
+!Bot: nomBot2
+
+Cette réponse est <span style="color:green">*VRAI*</span>
+1. [retour au question](Menu5)
+## menu10
+!Bot: nomBot2
+
+Cette réponse est <span style="color:red">*FAUSSE*</span>
+1. [retour au question](Menu5)
+## menu7
+!Bot: nomBot2
+
+1. [quatre catégories de réseaux](menu11)
+2. [cinq catégories de réseaux](menu12)
+
+## menu11
+!Bot: nomBot2
+
+Cette réponse est <span style="color:green">*VRAI*</span>
+
+1. [retour au question](Menu5)
+## menu12
+!Bot: nomBot2
+
+Cette réponse est <span style="color:red">*FAUSSE*</span>
+1. [retour au question](Menu5)
+
+## menu8
+!Bot: nomBot2
+
+1. [une subdivision logique d'un réseau de taille plus petite](menu13)
+2. [une subdivision logique d'un réseau de taille plus importante](menu14)
+
+## menu13
+!Bot: nomBot2
+
+Cette réponse est <span style="color:red">*FAUSSE*</span>
+1. [retour au question](Menu5)
+## menu14
+!Bot: nomBot2
+
+Cette réponse est <span style="color:green">*VRAI*</span>
+1. [retour au question](Menu5)
+## menu15
+!Bot: nomBot2
+
+Le <span style="color:blue">World Wide Web (WWW)</span>, souvent appelé simplement le Web, est un système permettant d'accéder à des informations sur Internet à l'aide de pages reliées entre elles par des liens hypertextes. Il a été inventé en 1989 par Tim Berners-Lee, un chercheur du CERN.
+
+Le **CERN** c'est : Le **CERN** (Conseil Européen pour la Recherche Nucléaire) est le plus grand laboratoire de physique des particules au monde. Il est situé à la frontière entre la France et la Suisse, près de Genève.
+
+## menu16
+
+<iframe src="https://chatmd.forge.apps.education.fr/#https://codimd.apps.education.fr/s/OHLvgSE1a" style="border:0; width:100%; height:700px"></iframe>
+
+
+
+
+
+            
+
