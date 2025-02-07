@@ -33,17 +33,9 @@ Bienvenue sur le chatbot d'aide à l'utilisation du reseau informatique.
 
 Liens vers la documentation https://codimd.apps.education.fr/s/Q3TqxlnF4
 
-8. [menu](bienvenue sur le chatbot principal)
- Quel est ton nom?
-
-
-`@nom = @INPUT : bienvenue sur le chatbot principal`
+1. [menu](bienvenue sur le chatbot principal)
 
 ## bienvenue sur le chatbot principal
-
-
-
-bonjour `@nom`
 
 1. [deuxiéme bot: assistance technique](bot2)
 2. [Qu'est ce que c'est un réseau informatique](Menu)
