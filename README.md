@@ -164,7 +164,8 @@ Hugo Hérault
 Python est un langage dit "parler" qui est accesible facilement par exemple pour écrire du texte on utilise la commande "print":
 
     print("bonjour!") #La commande écrira bonjour!
-    
+
+1. [retour au leçons](Différentes leçons)    
 on peux aussi donner des information par exemple:
 
     nom = input("Votre nom ? ") #On demande un nom avec "input" 
