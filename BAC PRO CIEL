@@ -35,23 +35,7 @@ Voici un ChatBot pour réviser et apprendre les différente matière du bac pro 
 
 ## langue
 
-Découvrer le bot d'apprentissage du python dans une nouvelle page (avec target="_blank" tu peux charger le bot directement dans une nouvelle page, avec target="_parent" tu peux charger le bot directement dans la page // finalement ça n'a pas l'air de fonctionner) C'est à voir ...
-
-En tous cas bon début de travail l'idée est intéressante :+1: 
-
-Vers le bot extérieur chargé dans la page : 
-
-<a class="btcolore" href="https://chatmd.forge.apps.education.fr/#https://codimd.apps.education.fr/s/Y72fJjIjn" target="_parent">vers un bot chargé dans la même page</a>
-
-Vers le bot extérieur chargé dans une nouvelle page : 
-
-<a class="btcolore" href="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/7278b1fe6b2568aa8c201cc2d1642329251c31ed/Python.md" target="_blank">Bot d'apprentissage du Python dans une nouvelle page</a>
-
-ou en iframe dans ce bot : 
-
 1. [Python](python)
-
-
 
 ## python
 
