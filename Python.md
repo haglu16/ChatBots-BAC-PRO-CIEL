@@ -5,6 +5,7 @@ rechercheContenu: true
 avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_dda923136f1c5a0db9a97068d60521b6.jpg
 avatarCercle: true
 favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_dda923136f1c5a0db9a97068d60521b6.jpg
+obfuscate: true
 tags: Python, chatbot
 ---
 
