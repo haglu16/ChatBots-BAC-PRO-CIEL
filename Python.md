@@ -16,9 +16,9 @@ Bienvenue sur le chatbot d’aide à l'apprentissage du langage python.
 
 ![](https://minio.apps.education.fr/codimd-prod/uploads/upload_dda923136f1c5a0db9a97068d60521b6.jpg)
 
-Python est un langage de programmation interprété, multiparadigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions ; il est ainsi similaire à Perl, Ruby, Scheme, Smalltalk et Tcl. 
+Python est un langage de programmation interprété, multiparadigme et multiplateformes. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions; il est ainsi similaire à Perl, Ruby, Scheme, Smalltalk et Tcl. 
 
-Voici un tutoriel détaillé pour métriser les base du langage python.
+Voici un tutoriel détaillé pour maîtriser les base du langage python.
 
 ![](https://minio.apps.education.fr/codimd-prod/uploads/upload_54aacee764f6b8fd117582b853016955.jpg)
 
@@ -27,7 +27,7 @@ Voici un tutoriel détaillé pour métriser les base du langage python.
 ## Différentes leçons
 
 
-Quelle leçons voulez-vous reviser aujourd'hui ?
+Quelle leçons voulez-vous réviser aujourd'hui ?
 
 1. [Premiers pas](Les base)
 2. [Les boucles en python](Les boucles for)
@@ -44,12 +44,13 @@ Quelle leçons voulez-vous reviser aujourd'hui ?
 
 - boucles
 
-Les boucle serve a faire des action répéter comme par exemple ajouter 1 a une variable on fera donc
+Les boucle serve a faire des actions répétées comme par exemple ajouter 1 a une variable on fera donc
 
-    a=0 ## pour définir la variable a
+    a=0 ## pour définir la variable "a"
     for loop in range(x):    ## on remplace x par le nombre de fois ou on veux executer la boucle
         a += 1    ## ici nous on ajoute 1 a la variable a il ne faut pas oubler d'incrémenter la ligne pour quelle soit dans la boucle
     print(a) ##Donc a la fin A sera égale a X
+
 Essaie donc de copier et d'executer ce bout de code
 
 1. [retour au leçons](Différentes leçons)
@@ -60,11 +61,11 @@ Essaie donc de copier et d'executer ce bout de code
 - variables en python
 
 
-En python nous utilisons des "variables" qui sont donner par l'utilisateur elles peuvent avoir plusieurs fonctions comme des nombres entiers avec le préfixe "int", ou des nombres decimaux avec le préfixe "float".
+En python nous utilisons des "variables" qui sont données par l'utilisateur, elles peuvent avoir plusieurs fonctions comme des nombres entiers avec le préfixe "int", ou des nombres decimaux avec le préfixe "float".
 
 exemple:
 
-float(x) ## ici x est le nom de la variable
+    float(x) ## ici x est le nom de la variable
 
 
 1. [retour au leçons](Différentes leçons)
@@ -73,7 +74,7 @@ float(x) ## ici x est le nom de la variable
 
 - video
 
-Tuto youtube d'environs 2h :
+Tuto youtube d'environ 2h :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oUJolR5bX6g?si=5plVLIErM8CmW-0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -85,8 +86,7 @@ Tuto youtube d'environs 2h :
 - elif 
 - else
 
-Nous allons maitenant voir comment fonctione les conditions , pour demandé une condition nous utilison
-la comande "if" ensuite nous mettons les conditions 
+Nous allons maitenant voir comment fonctione les conditions , pour demander une condition nous utilisons la commande "if" ensuite nous mettons les conditions 
 par exemple: 
 
     a=0 
@@ -106,7 +106,7 @@ par exemple:
 != pour tester la différence entre deux valeurs
 
 
-vous pouvez essayé de copier ce code et de le collé dans la console de la dernière leçon .
+vous pouvez essayer de copier ce code et de le coller dans la console de la dernière leçon .
 
 1. [retour au leçons](Différentes leçons)
 
@@ -116,7 +116,7 @@ vous pouvez essayé de copier ce code et de le collé dans la console de la dern
 - Extention
 - Addon
 
-Dans python nous pouvons utiliser des "librairie" ce sont des script crée par des utilisateur en plus des commande de base que nous pouvons ajouter et utiliser par exemple la librairie "maths" qui est assez connu pour faire des calcule ou encore "random" qui permet de générer des chiffres aléatoire comme dans l'exemple ci dessous:
+Dans python nous pouvons utiliser des "librairie". Ce sont des scripts crée par des utilisateurs en plus des commandes de base que nous pouvons ajouter et utiliser par exemple la librairie "maths" qui est assez connu pour faire des calculs ou encore "random" qui permet de générer des chiffres aléatoires comme dans l'exemple ci dessous:
 
     import random    #Ici nous importons l'extention random
     choix = input("Pile ou face ? ")
@@ -130,7 +130,7 @@ Dans python nous pouvons utiliser des "librairie" ce sont des script crée par d
         print("gagné")
     else: 
         print("perdu")
-voici un code a copier coller pour jouer a pile ou face.
+voici un code à copier coller pour jouer à pile ou face.
 
 1. [retour au leçons](Différentes leçons)
 
@@ -161,7 +161,7 @@ Hugo Hérault
 - insert
 - input
 
-Python est un langage dit "parler" qui est accesible facilement par exemple pour écrire du texte on utilise la commande "print":
+Python est un langage dit "parler" qui est accessible facilement par exemple pour écrire du texte on utilise la commande "print":
 
     print("bonjour!") #La commande écrira bonjour!
 
