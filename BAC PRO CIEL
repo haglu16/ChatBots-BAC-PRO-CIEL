@@ -27,8 +27,19 @@ Voici un ChatBot pour réviser et apprendre les différente matière du bac pro 
 
 1. [Langage de programation](langue)
 2. [Réseaux informatique](réseau info)
+3. [ChatBot sur ChatMD](ChatBot)
+
+## ChatBot
+
+- ChatBot
+
+<iframe src="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/da4442eb68d100a98d9a32b4de57cd129307bb01/ChatBot%20avec%20ChatMD" style="border:0; width:100%; height:700px"></iframe>
+
+1. [Table des matière](menu)
 
 ## réseau info
+
+- réseaux informatiques
 
 <iframe src="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/e955314892914ebed0d16b10255e5205fb0c694b/Reseau%20informatique" style="border:0; width:100%; height:700px"></iframe>
 
@@ -40,13 +51,13 @@ Voici un ChatBot pour réviser et apprendre les différente matière du bac pro 
 
 ## python
 
+- python
+
 <iframe src="https://chatmd.forge.apps.education.fr/#https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/9678b00d3a949cee6376d4cb716182a3c1b9d626/Python.md" style="border:0; width:100%; height:700px"></iframe>
 
 1. [Table des matière](menu)
 
 ## général
 
-## crédit
-Merci au personnes qui ont contribuer a ces bots:
+## Crédit
 Hugo Hérault
-
