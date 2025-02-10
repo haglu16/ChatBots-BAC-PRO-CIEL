@@ -1,0 +1,157 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+avatarCercle: true
+obfuscate: true
+contenuDynamique: true
+tags: chatbot, CIEL
+---
+
+# ChatBot avec ChatMD
+
+`@score=0`
+
+Bienvenu dans cette leçons pour aprendre a se servire de ChatMD affin de crée un Chat Bot
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_be9fb7069d1b33edd9aea6a469f9ec5d.png)
+
+1. [accerder au leçons](menu)
+
+## menu
+
+1. [Prérequis](need)
+2. [YAML](YAML)
+3. [Differents balisages](interact)
+4. [Les évaluation](eval)
+5. [Crédit](credit)
+
+## eval
+
+Quelle est la balise pour ajouter un lien dans le bot ?
+
+1. [a](question2)
+2. [_blank](question2)
+3. [iframe @score=calc(@score+1)](question2)
+
+## question2
+
+Quelle est la syntaxe pour faire un bouton basique ?
+
+1. [1.[Texte] (destination) @score=calc(@score+1)](question3)
+2. [aller a ..](quesion3)
+3. [YAML](question3)
+
+## question3
+
+Quelle balise permet de faire un boutons avec un lien ?
+
+1. ["1.[Texte] (destination)"](question4)
+2. [< a> @score=calc(@score+1)](question4)
+3. [< iframe>](question4)
+
+## question4
+
+Parmis ces 2 option la quelle permet d'ouvrir un lien dans une nouvelle fenêtre ?
+
+1. [blank_ @score=calc(@score+1)](question5)
+2. [parent_](question5)
+
+## question5
+
+Quelle langage utilise CodiMD ?
+
+1. [python](score)
+2. [C#](score)
+3. [markdown @score=calc(@score+1)](score)
+4. [java](score)
+
+## score
+
+Ta note final est de `@score`/5
+
+1. [retour au leçons](menu)
+
+## interact
+
+- bouton
+- image
+- video
+- intégration
+- interaction
+- balise
+
+Dans ChatMD nous utilison des balisage et certaine syntaxe nous allons en voire certaine dans cette leçons
+
+Pour faire des boutons nous avons plusieurs solutions:
+
+la première la plus simple est de faire la syntaxe suivante:
+    1. [Message a afficher](Nom de la destination)
+ensuite nous pouvons ouvir un lien en cliquant sur un bouton avec la commande ci dessou:
+    < a class="btcolore" href="[URL]" target="_blank">[Texte du bouton]< /a>
+ou nous pouvons simplement remplacer la page actuelle avec une autre en remplacent le "_blank" par "_parent"
+
+nous pouvons aussi intégré des lien directement dans la page du bot avec la balise < iframe> comme avec l'exmple ci dessous:
+
+< iframe src="URL" style="border:0; width:100%; height:700px">< /iframe>
+
+1. [retour au leçons](menu)
+
+## YAML
+
+- YAML
+
+cette partie est indispensable a votre bot elle doit se trouver au début de votre code entre des "---" au début et a la fin pour cette partie vous pouvez utiliser <a href="https://college-vincent-van-gogh.forge.apps.education.fr/magraner/personnalisetonbot/" target="_blank"> Personnalisation YAML </a> ou sinon vous pouvez mettre a la main les option suivante:
+(pour chaque option true=activer et false=désactiver)
+clavier: true/false #cela permet d'activer l'option d'écrire au Bot comme ci dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_22e756e04b8c22b4ed482e63692331bd.png)
+gestionsGrosMots: true/false #cela permet de détecter les insulte des utilisateur et d'y repondre avec une reponce approprier comme ci dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_e84e54c4999fd6150c41c280f4fcfd60.png)
+rechercheContenu: true/false #cela permet de faire de rechercher un tag dans un texte donner par l'utilisateur
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_7684876b8a19790e36c4c58003b930bd.png)
+avatarCercle: true/false #cela permet de faire une icone arrondi pour le bots comme si dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_eda1fbbff129b2252bc83708c2134779.png)
+avatar: URL #cela permet de mettre une icone personnaliser comme ci dessus
+favicon: URL #cela permet de modifier l'icone de l'onglet comme ci-dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_4ddb46967c7e195bf988bcbc3055c47a.png)
+bots:        #cela permet d'ajouter des bots secondaires
+_nomBot1: #remplacer nomBot par le nom voulu
+__avatar: URL
+_nomBot2:
+__avatar: URL
+
+maths: true/false #cela permet de faire des formule mathématique avec le Bot
+addOns: nomAddons #cela permet d'ajouter des addons comme par exemple kroki qui permet de faire des schémas et des graphiques
+obfuscate: true/false #qui permet de masquer le lien en restant dessu un bouton
+tags: xxxx, xxxx #A mettre en dernier avant les "---" 
+
+1. [retour au leçons](menu)
+
+## need
+
+- prérequis
+
+Dans un premier temps il vous faudra un fichier Markdown en ligne pour cela vous pouvez utiliser <a href="https://codimd.math.cnrs.fr" target="_blank"> CodiMD </a> ou encore avec <a href="https://github.com" target="_blank"> GitHub </a> il faudra ensuite insérer le lien dans l'url suivante: https://chatmd.forge.apps.education.fr/#URL et remplacer le "URL" par votre url
+
+Pour trouver cette URL rien de plus simple pour les deux exemple ci dessus:
+CodiMD:
+Appuyer sur le bouton Publier en haut a droite et copier le lien !
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_a4577d2886ba4f23c3601a6079b3f2b5.png)
+
+GitHub:
+une fois votre fichier éditer et en ligne aller sur les trois petits points en haut a droite 
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_5ba3012611c05d6d0af730e23029d759.png)
+Puis Copy Permalink
+![](https://minio.apps.education.fr/codimd-prod/uploads/upload_5354037d4d85436eea63c10596b2c9cb.png)
+Ou simplement faire le racourci clavier:
+"Ctrl"+"shift"+","
+puis coller le lien comme dit ci dessus 
+(a chaque changement dans le code sur GitHub il faut recrée un lien)
+
+Et voila votre ChatBot est prêt !
+
+1. [retour au leçons](menu)
+
+## credit
+
+Hugo Hérault
