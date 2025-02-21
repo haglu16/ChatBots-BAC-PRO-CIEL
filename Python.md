@@ -6,10 +6,13 @@ avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_dda923136f1c5
 avatarCercle: true
 favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_dda923136f1c5a0db9a97068d60521b6.jpg
 obfuscate: true
+contenuDynamique: true
 tags: Python, chatbot
 ---
 
 # Bot d'apprentissage pour python
+
+`@score=0`
 
 <span style="color: #E30037;font-size: 25px">**Apprentissage du langage python** </span>
 
@@ -37,9 +40,8 @@ Quelle leçons voulez-vous réviser aujourd'hui ?
 5. [Les extentions](Les Librairie)
 6. [Lien tuto youtube](Tuto youtube 2h)
 7. [Console de test python](Console de test)
-8. [Crédit](Crédit) 
-
-
+8. [Evaluation](eval)
+9. [Crédit](Crédit) 
 
 ## Les boucles for
 
@@ -172,4 +174,58 @@ on peux aussi donner des information par exemple:
     nom = input("Votre nom ? ") #On demande un nom avec "input" 
     print("Bonjour", nom) # attention a ne pas oublier la virgule
     
+## eval
 
+Quelle est la commande pour faire une boucle basique ?
+
+1. [for @score=calc(@score+1)](q2)
+2. [boucle](q2)
+3. [repeat](q2)
+4. [loop](q2)
+5. [range](q2)
+
+## q2
+
+Quelle est le préfixe pour avoir des nombre a virgule dans les variable ?
+
+1. [int](q3)
+2. [virgule](q3)
+3. [float @score=calc(@score+1)](q3)
+4. [variable](q3)
+5. [nike](q3)
+
+## q3
+
+Quelle est la commande pour initier les conditions ?
+
+1. [elif](q4)
+2. [si](q4)
+3. [else](q4)
+4. [if @score=calc(@score+1)](q4)
+5. [ou](q4)
+
+## q4
+
+Quelle est la commande pour installer une librairie ?
+
+1. [install](q5)
+2. [import @score=calc(@score+1)](q5)
+3. [libairie](q5)
+4. [télécharge](q5)
+5. [importer](q5)
+
+## q5
+
+Quelles est la commande pour écrire ?
+
+1. [écrit](score)
+2. [affiche](score)
+3. [imprime](score)
+4. [write](score)
+5. [print @score=calc(@score+1)](score)
+
+## score
+
+Ta note final est de `@score`/5
+
+1. [retour au leçons](Différentes leçons)
