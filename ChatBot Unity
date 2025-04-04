@@ -1,0 +1,132 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b568f.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b5690.png
+obfuscate: true
+contenuDynamique: true
+tags: Unity, chatbot
+---
+
+# Unity
+
+`@score=0`
+
+Voici un ChatBot qui permet d'apprendre les base du moteur de jeu Unity
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b5693.png)
+
+1. [Menu](menu)
+
+## menu
+
+1. [Unity c'est quoi?](histoire)
+2. [Crée un projet](projet)
+3. [Interface](interface)
+4. [script et extention](paramètre)
+5. [scenes](scene)
+6. [compiler](compile)
+7. [évaluation](éval)
+8. [crédit](credit)
+
+## éval
+
+Qui est le concurent de Unity?
+
+1. [Unreal Engine @score=calc(@score+1)](eval2)
+2. [Super Moteur de jeu 2000](eval2)
+3. [Les concurent mieux que Unity](eval2)
+
+## eval2
+
+Combien y a-t-il d'onglet principal dans unity Hub ?
+
+1. [5](eval3)
+2. [3 @score=calc(@score+1](eval3)
+3. [2](eval3)
+
+## eval3
+
+avec quoi paramétre t-on les objets ?
+
+1. [des script et extention @score=calc(@score+1)](eval4)
+2. [des boutons](eval4)
+3. [seulement des extention](eval4)
+
+## eval4
+
+quand faut-il compiler le jeu ?
+
+1. [au début](eval5)
+2. [au milieux](eval5)
+3. [a la fin  @score=calc(@score+1)](eval5)
+
+## eval5
+
+a quoi cert-il de compliler un jeu?
+
+1. [a réduire la taille des fichier](score)
+2. [a rendre le jeu jouable @score=calc(@score+1)](score)
+3. [a publier le jeu](score)
+
+## score
+
+Ta note final est de `@score`/5
+
+1. [retour au menu](menu)
+
+## compile
+
+Une fois que vous avez fini de crée votre jeu il vous reste une dernière étape avant de pouvoir jouer il faut le compiler mais pas de panique ce n'est pas très compliquer il suffit d'aller dans File Build and settings ou ctrl+shift+B
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b56a3.png)
+appliquer les paramètre voulu et apuyer sur Build ou Build and Run si vous voulez le lancer après le compilage
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b56a4.png)
+Et voila vous pouvez profiter de votre jeu !
+
+1. [retour au menu](menu)
+
+## scene
+
+Dans Unity nous pouvons utiliser plusieurs scene et naviguer dans ces scene dans le jeu final a l'aide de bouton par exemple pour faire plusieurs niveau ou des menu pour ce faire il suffit d'allez dans File puis New scene ou de faire ctrl+N
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b56a1.png)
+
+1. [retour au menu](menu)
+
+## paramètre
+
+dans unity pour faire fonctionner le jeu il faut ajouter des script et extention pour rendre le jeu jouable pour cela rien de plus simple il suffit de sélectioner un objet a paramètrer puis une fenêtre s'ouvre comme ci dessous ![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b569d.png)
+par la suite pour ajouer une extention ou un script il suffit de sélectionner add component comme ci dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b569e.png)
+rechercher ensuite le script ou extention que vous voulez installer et il ne vous reste qu'a la paramétrer
+
+1. [retour au menu](menu)
+
+## histoire
+
+Unity est un moteur de jeu multiplateforme développé par Unity Technologies. Il a la particularité de proposer une licence gratuite dite « Personal » avec quelques limitations de technologie avancée au niveau de l'éditeur, mais sans limitation au niveau du moteur.
+
+Il est l'un des deux moteurs les plus répandus dans l'industrie du jeu vidéo, aussi bien pour les grands studios que pour les indépendants. Par rapport à son concurrent principal, Unreal Engine, Unity est considéré comme ayant une interface utilisateur plus facile d'accès et un service plus approprié pour les créations indépendantes.
+
+1. [retour au menu](menu)
+
+## projet 
+
+tout dabord installer unity avec ce lien : https://unity.com/fr/download puis ouvrez unity hub. Cliquer ensuite sur New Project comme ci dessous ![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b5698.png)
+
+Ensuite donner un nom a votre project et crée le comme ci dessous
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b5699.png)
+
+1. [retour au menu](menu)
+
+## interface
+
+dans l'interface de unity il y a plusieurs partie importante
+L'explorateur de fichier qui permet d'ajouter les scene les asset et script au projet ![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b569a.png)
+il y a le gestionnaire d'objet sur la scene
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b569b.png)
+et pour finir il y a l'onglet qui permet d'éditer les objets
+![](https://minio.apps.education.fr/codimd-prod/uploads/1ef1245f1a94783590a3b569c.png)
+
+1. [retour au menu](menu)
