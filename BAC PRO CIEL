@@ -3,7 +3,6 @@
 clavier: true
 gestionGrosMots: true
 rechercheContenu: true
-style: .btcolore a, a:link, a:visited{color:#283747 !important;} .btcolore:hover {background-color:#C70039;color:#fff !important} .btcolore{background-color:;font-size:16px;margin:4px;padding:5px 10px;text-align:center;text-decoration:none;margin-left:20px;font-size:.95em;display:inline-block;border-radius:12px;border:1px solid #283747;} 
 avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_926521da4da106e35348ce4f1716e69b.png
 avatarCercle: true
 favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_60792746fe80e7b8b2aca00f0cd91573.png
