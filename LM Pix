@@ -1,0 +1,546 @@
+---
+tags: LMbot
+title: LMbot-Pix
+---
+
+## pix
+
+**J'ai besoin d'informations concernant PIX.**
+
+***** 
+
+Voici les informations que j’ai trouvé concernant PIX. N’hésite pas à préciser ta demande si tu veux d’autres informations. 
+
+- 🎦 Une [vidéo de présentation générale de PIX](https://videos.pix.fr/certification_pix/pix.mp4)
+- 🎦 Une [vidéo de présentation de PIX en 6ème](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/PIX_6eme.mp4)
+- Un [document synthétique sur la certification](https://cloud.pix.fr/s/2q4c4QT9jGbGbEq?dir=undefined&path=%2FE-1%20Une%20nouvelle%20certification%20%C3%A0%20la%20rentr%C3%A9e%202024%20(dont%20l%27extension%20Pix%20Companion)%2FFlyer%20nouvelle%20certification&openfile=303928)
+
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+- La [documentation officielle](https://view.genially.com/5f3e7a5ba8ffb90d11ac034f)
+</div>
+
+`endif`
+
+`if @user==prof || @user==eleve`
+
+1. [Comment je me connecte à PIX ?](pix_connexion)
+2. [Qu’est-ce que je dois faire ?](pix_travail)
+3. [Retour menu](accueil_eleve)
+
+`endif`
+
+`if @user==prof`
+
+3. [Puis-je passer une certification en tant que prof ?](pix_certification_prof)
+4. [Retour menu](accueil_prof)
+
+`endif`
+
+`if @user==parent || @user==ext`
+
+4. [Pix parentalité](pix_parentalite)
+5. [Retour menu](accueil_parent)
+
+`endif`
+
+
+## pix_connexion
+- connexion pix
+- connexion pix orga
+
+**Comment je me connecte à PIX ?**
+
+***** 
+
+`if @user==parent || @user==ext`
+
+A priori, vous n’avez pas besoin de vous connecter à Pix.
+Pour voir à quoi cela ressemble ou vous former sur des notions de bases, voir "[Pix parentalité](pix_parentalite)".
+
+`endif`
+
+`if @user==prof || @user==eleve`
+
+Voici la procédure que j’ai trouvé te permettant de te connecter à PIX : 
+
+`endif`
+
+`if @user==eleve`
+
+1️⃣ Je vais sur Néo.
+2️⃣ Dans les applications, je cherche “EduGAR Elèves”. 
+![EduGAR Elèves Néo](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/appli_neo_edugar_eleves.png)
+3️⃣ Je clique sur PIX, la connexion est automatique. Je peux alors entrer le code parcours fournis par mon enseignant.
+![Médiacentre EduGAR Elève pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/mediacentre_edugar_eleves_pix.png)
+![Saisi code parcours pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/code_parcours_pix.png)
+
+`endif`
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+
+:::vide collapsible **ℹ️ A savoir !**
+- Les élèves se connectent en passant par Néo, Applications, EduGAR Elèves. La connexion à PIX se fait automatiquement. En cas de problèmes de connexion d’un élève, voir l’[assistance](pix_mot_de_passe).
+- Les enseignants doivent se connecter sur une autre plateforme : **PixOrga**.
+:::
+
+1️⃣ Je vais sur Néo.
+2️⃣ Dans les applications, je cherche “VVG Pix Orga” et je me connecte avec mes **identifiants académiques**. La connexion sera, en principe, par la suite automatique.
+![VVG Pix Orga](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/vvg_pix_orga.png)
+![Identification Pix Orga](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/identification_pix_orga.png)
+
+:::vide collapsible **🆘 Je n'ai pas de compte !**
+J’ai reçu une invitation de mon chef d’établissement sur ma boîte de messagerie académique. Si je ne l'ai pas reçu, je contacte la Direction (⚠️ Attention l'invitation n'est valide que pour un certain délai !)
+1️⃣ Je l’accepte.
+2️⃣ Je m’inscris sur PIX Orga en utilisant mes **identifiants académiques**.
+![Invitation Pix Orga](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/invitation_pix_orga.png)
+![Identification Pix Orga](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/identification_pix_orga.png)
+:::
+
+</div>
+
+`endif`
+
+`if @user==eleve`
+
+1. [😡 Ça ne fonctionne pas !](pix_mot_de_passe)
+
+`endif`
+
+`if @user==prof`
+
+2. [😱 Un élève n’arrive pas à se connecter, que faire ?](pix_mot_de_passe)
+
+`endif`
+
+`if @user==prof || @user==eleve`
+
+3. [Qu’est-ce que je dois faire ?](pix_travail)
+
+`endif`
+
+4. [🏠 Retour accueil](menu)
+
+## pix_mot_de_passe 
+- mot de passe pix
+- Identifiants pix
+- Problème connexion pix
+
+**😱 J’ai un problème de connexion à PIX !**
+
+*****
+
+Voici les informations que j’ai trouvé en cas de problème de connexion sur PIX !
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+:::vide collapsible **⚠️ Information importante !** 
+- Sur PIXOrga, regarder la méthode de connexion de l’élève.
+- S’il est en “**identifiant**” c’est qu’il utilise uniquement un **identifiant PIX** qui doit être rattaché au PIXOrga de l’établissement (voir points (2) et (3)). 
+- S’il est en “**Médiacentre**”, c’est que son compte passe directement via **EduGAR** et normalement avec les identifiants **Educonnect**, tout devrait fonctionner normalement.
+- S’il est en “**Adresse e-mail**", c’est qu’il s’est **créé un compte tout seul** il serait souhaitable de lui **créer un identifiant PIX** (Voir point (2)). 
+:::
+</div>
+
+`endif`
+
+- Cas N° 1️⃣ : Je n’ai pas mes identifiants Néo
+Je demande à mon professeur s'il peut me réinitialiser mes identifiants Néo.
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+
+Pour réinitialiser les identifiants Néo, voir la [procédure Educonnect](Lien à mettre).
+
+</div>
+
+`endif` 
+
+- Cas N°2️⃣ : Je me connecte mais on me demande d’utiliser un compte PIX et je n’ai pas les identifiants 😱
+![Compte pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/compte_pix.png)
+  - Je demande à mon professeur qu’il me réinitialise le mot de passe Pix.
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+- Sur PIXOrga, dans l’onglet “Elèves”, je cherche l’élève concerné, à l’aide des filtres.
+- Je clique sur les ⋮ (1) puis sur “Gérer le compte” (2). Je peux alors réinitialiser le mot de passe et le communiquer avec l’identifiant à l’élève (3).
+![Gestion compte pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/gestion_compte_pix.png)
+</div>
+
+`endif`
+
+  - Je clique sur "Continuer avec mon compte PIX" et je m’identifie.
+![Inscription pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/inscription_pix.png)
+  - Je modifie ensuite mon mot de passe temporaire et je **retiens l’identifiant et le nouveau mot de passe**. 🤯
+![Nouveau mot de passe pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/new_mot_de_passe_pix.png)
+  - Ma connexion sera désormais automatique lorsque je passe par **EduGAR élèves**. 😋
+
+`if @user==prof`
+
+<div markdown class="PourLesProfs">
+:::vide collapsible **🆘 Absence de la gestion du compte, il n’y a pas les ⋮** ‍😵
+Pas de panix ! Je communique le code parcours à l’élève qui devra aller sur [pix.fr](https://pix.fr) et le saisir dans "Entrer un code" en haut à droite de la page.
+Cela va automatiquement créer un compte dans Pix Orga que l’on pourra gérer par la suite. 😋
+![Code parcours pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/code_parcours_pix.png)
+![Début parcours pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/debut_parcours_pix.png)
+![Finalisation inscription pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/finalisation_inscription_pix.png)
+:::
+</div>
+
+`endif`
+
+1. [Qu'est-ce que je dois faire ?](pix_travail)
+2. [🏠 Retour accueil](menu)
+
+## pix_travail
+- Travail sur pix
+- Qu'est-ce que je dois faire
+
+**Qu’est-ce que je dois faire sur PIX ?**
+
+***** 
+
+Voici les informations que j’ai trouvé concernant le travail à faire sur PIX : 
+
+`if @user==prof`
+
+Il faut présenter PIX aux élèves et leur expliquer le travail qu’ils vont devoir réaliser (voir [ici](pix)). {.PourLesProfs}
+
+`endif`
+
+⚠️ **Important :** Le travail sur PIX doit se faire en autonomie le plus possible. Les professeurs ne doivent pas t’aider à répondre aux questions, il faut que tu te débrouilles et que tu cherches par toi-même. Toutes les 5 questions te sont proposés des aides, des tutos qu’il faut que tu consultes pour progresser.
+
+1️⃣ Je réalise les différents parcours proposés par mes professeurs en saisissant les codes parcours qui m’ont été communiqués.
+![Code parcours](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/code_parcours.jpg)
+2️⃣ Je travaille tout seul, et à mon rythme, les différentes compétences cliquant sur "Reprendre".
+![Reprendre compétence pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/reprendre_competence_pix.png)
+3️⃣ Je peux retenter un parcours pour améliorer mon score tous les 4 jours.
+<iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=EklIfUbfRRY&vignette=https://i.ytimg.com/vi/EklIfUbfRRY/hqdefault.jpg&debut=0&fin=47&largeur=16&hauteur=9" allow="autoplay; fullscreen" frameborder="0" width="700" height="394"></iframe>
+
+1. [Plus d’informations](pix_travail_detail) 
+2. [A quoi ressemble le travail à faire sur PIX ?](pix_exemple_travail)
+3. [🏠 Retour accueil](menu)
+
+## pix_travail_detail 
+- Info complémentaire travail pix 
+- Détail travail à faire sur pix 
+
+**J’ai besoin d’informations complémentaires sur le travail à faire dans PIX.**
+
+***** 
+
+Voici des informations plus détaillées sur le travail à faire sur PIX.
+
+:::vide collapsible **Je suis en 6ème**
+
+1️⃣ Je fais le parcours "Initiation aux compétences numériques" avant les vacances de novembre. (Le code parcours sera donné par mon professeur) 
+
+`if @user==prof`
+
+Le code parcours sera fourni par le chef d’établissement. Il sera identique pour toutes les classes de 6ème. {.PourLesProfs}
+
+`endif`
+
+2️⃣ Je fais le parcours "Protection et sécurité" avant la fin du second trimestre. (Le code parcours sera donné par mon professeur).
+
+`if @user==prof`
+
+Le code parcours sera fourni par le chef d’établissement et sera identique pour toutes les classes de 6ème. {.PourLesProfs}
+
+`endif`
+
+3️⃣ Je passe l’"Attestation de sensibilisation au numérique" au cours du troisième trimestre. (Je suis les consignes données par mon professeur).
+
+`if @user==prof`
+
+Les consignes de passation de l’attestation seront données par le chef d’établissement selon le calendrier défini. {.PourLesProfs}
+
+`endif`
+
+:::
+
+:::vide collapsible **Je suis en 5ème ou 4ème**
+
+1️⃣ Je fais le parcours de rentrée avant les vacances de novembre. (Le code parcours sera donné par mon professeur) 
+
+`if @user==prof`
+
+Le code parcours sera fourni par le chef d’établissement. Il sera identique pour toutes les classes d’un même niveau. {.PourLesProfs}
+
+`endif`
+
+2️⃣ Je travaille en autonomie, et à mon rythme, chaque compétence en cliquant sur "Reprendre". L’objectif est d’avoir au moins 13 compétences, sur les 16, niveau 1 en fin de 5ème et niveau 2 en fin de 4ème.
+![Reprendre compétence pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/reprendre_competence_pix.png)
+
+3️⃣ Je fais éventuellement les parcours qui me sont proposés par mes enseignants en saisissant les codes parcours qu’ils me communiquent.
+
+:::
+
+:::vide collapsible **Je suis en 3ème**
+
+1️⃣ Je fais le parcours de rentrée avant les vacances de novembre. (Le code parcours sera donné par mon professeur) 
+
+`if @user==prof`
+
+Le code parcours sera fourni par le chef d’établissement. Il sera identique pour toutes les classes de 3ème. {.PourLesProfs}
+
+`endif`
+
+2️⃣ Je travaille en autonomie, et à mon rythme, chaque compétence en cliquant sur "Reprendre". L’objectif est d’avoir au moins 13 compétences, sur les 16, niveau 2 voir 3 en fin de 3ème.
+![Reprendre compétence pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/reprendre_competence_pix.png)
+
+3️⃣ Je fais éventuellement les parcours qui me sont proposés par mes enseignants en saisissant les codes parcours qu’ils me communiquent.
+
+4️⃣ Je valide mon profil en saisissant le code de collecte de profil qui m’est communiqué par mon professeur avant les vacances de Noël ainsi qu’en fin d’année avant la certification.
+
+`if @user==prof`
+
+Les collectes de profils ne prennent pas plus de 5 minutes. Il s’agit de faire un état des lieux d’où en sont les élèves. Le code sera réutilisé pour la collecte de fin d’année afin de voir l’évolution des élèves. {.PourLesProfs}
+
+`endif`
+
+5️⃣ Je passe la certification PIX en suivant les consignes données par mes enseignants.
+
+`if @user==prof`
+
+Les consignes de passation de la certification seront données par le chef d’établissement selon le calendrier défini. {.PourLesProfs}
+
+`endif`
+
+:::
+
+`if @user==prof`
+
+<div markdown class=PourLesProfs>
+
+Il existe tout un catalogue de parcours spécifiques dans Pix à utiliser avec les élèves pour les faire travailler ou améliorer des compétences particulières.
+On peut choisir des parcours :
+- Disciplinaires
+- Par compétences
+- Ciblés (Spécifiques aux EANA, aux élèves déficients visuels, aux ULIS...)
+- Thématiques : EMI, tableur, faire un exposé...
+
+Voir le [catalogue complet des parcours](https://dane.ac-reims.fr/images/experimenter/pix/pdf/GUID_Enseignants_Parcours_p%C3%A9dagogiques_dans_Pix_Orga_sept2024.pdf) pour plus de détails.
+
+</div>
+
+`endif`
+
+1. [A quoi ressemble le travail à faire sur PIX ?](pix_exemple_travail)
+2. [C’est tout bon, merci ! 👍](aurevoir)
+
+`if @user==prof`
+
+3. [Comment créer un parcours spécifique ou une collecte de profil ?](pix_parcours)
+
+`endif`
+
+`if  @user==eleve`
+
+4. [😭 Je ne suis pas certifiable, que faire ?](pix_non_certifiable)
+
+`endif`
+
+5. [🏠 Retour accueil](menu)
+
+## pix_parcours 
+- Collecte
+- Campagne collecte
+- Profil
+- Collecte de profil
+- Parcours ciblé
+- Parcours spécifique
+
+**Comment créer un parcours spécifique ou une collecte de profils ?**
+
+*****
+
+`if @user==eleve || @user==parent || @user==ext`
+
+Si vous n'êtes pas un personnel de l'établissemnet, vous ne pouvez pas créer de parcours dans PIX. Seuls les personnels de l'établissement sont habilités.
+Vous pouvez néanmoins réaliser des parcours sur PIX sans inscription en quelques minutes pour découvrir le fonctionnement ou vous former à des compétences de bases sur le numérique  : [https://pix.fr/parcours-autonomes](https://pix.fr/parcours-autonomes)
+
+`endif`
+
+`if @user==prof`
+
+<div markdown class=PourLesProfs>
+
+Voici la procédure pour créer un parcours spécifique (thématiques, par compétences, disciplinaires...) ou une collecte de profil pour les 3èmes.
+1️⃣ Sur PixOrga, je créé la campagne.
+![Créer camapgne pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/creer_campagne.png)
+2️⃣ Je renseigne les différentes informations demandées.
+- Pour une collecte de profil :
+Faire attention aux paramétrages des points 2, 3 et 4 qui sont importants pour pouvoir réutiliser le code de collecte plus tard dans l’année.
+![Créer collecte pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/creer_collecte.png)
+- Pour un parcours ciblé :
+C’est aux points 3 et 4 qu’on peut choisir un parcours spécifique par thématiques, par compétences, par disciplines...
+![Créer camapgne pix 1](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/creer_campagne_1.png)
+![Créer camapgne pix 2](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/creer_campagne_2.png)
+3️⃣ Je transmets le code parcours à mes élèves.
+![Camapgne code parcours pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/campagne_code_parcours.png)
+
+</div>
+
+1. [Comment consulter les résultats de mes élèves ?](pix_resultats_profil)
+2. [😱 Un élève n’est pas certifiable, que faire ?](pix_non_certifiable)
+3. [A quoi ressemble le travail à faire sur PIX ?](pix_exemple_travail)
+
+`endif`
+
+4. [🏠 Retour accueil](menu)
+
+## pix_resultats_profil 
+- Consulter résultat collecte
+- Résultats élèves
+- Résultats profil
+
+**Comment consulter les résultats de mes élèves ?**
+
+******
+
+`if @user==eleve || @user==parent || @user==ext`
+
+Si vous n'êtes pas un personnel de l'établissemnet, vous ne pouvez pas consulter les résultats des parcours PIX. Seuls les personnels de l'établissement sont habilités.
+Vous pouvez néanmoins réaliser des parcours sur PIX sans inscription en quelques minutes pour découvrir le fonctionnement ou vous former à des compétences de bases sur le numérique  : [https://pix.fr/parcours-autonomes](https://pix.fr/parcours-autonomes)
+
+`endif`
+
+`if @user==prof`
+
+<div markdown class=PourLesProfs>
+
+Voici les informations que j’ai trouvé concernant la consultation des résultats d’une collecte de profil Pix !
+
+1️⃣ Dans PixOrga, aller dans l’onglet “Campagnes” et cliquer sur la collecte de profil que réalisée par votre classe.
+2️⃣ Aller dans l’onglet “Résultats”.
+![Résultats profil pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/resultats_profil.jpg)
+3️⃣ On peut alors consulter le score Pix des élèves, leur évolution par rapport à une précédente collecte de profil (d’où l’intérêt de réutiliser le même code).On peut voir s’ils sont certifiables ou non ainsi que le nombre de compétences certifiables qu’ils ont.
+4️⃣ On peut obtenir une analyse plus détaillée en cliquant sur le nom de l’élève.
+
+**Rappel :**
+Les élèves sont certifiables dès lors qu’ils ont au moins 5 compétences niveau 1.
+L’objectif de fin de 3ème est, idéalement, d’au moins 13 compétences sur les 16, niveau 2 voire 3.
+
+</div>
+
+1. [😱 Un élève n’est pas certifiable, que faire ?](pix_non_certifiable)
+
+`endif`
+
+2. [🏠 Retour accueil](menu)
+
+## pix_non_certifiable 
+- campagne sos 
+- non certifiable 
+
+**🆘 Non certifiable, que faire ? 😱**
+
+***** 
+
+Voici les informations que j’ai trouvé dans le cas où le profil n’est pas certifiable : 
+
+1️⃣ Tu peux travailler les compétences en autonomie en privilégiant celles les plus avancées pour obtenir au moins 5 d’entre elles au niveau 1 et devenir certifiable. Cela demande un peu de travail et de temps ! 
+![Avancement compétence pix](https://college-vincent-van-gogh.forge.apps.education.fr/chatbot_assistance_vvg/Documents/PIX/avancement_competence.jpg)
+2️⃣ Tu peux réaliser une campagne SOS (demande à ton professeur le code du parcours SOS) en ayant bien conscience que ce n’est pas magique.
+
+`if @user==prof`
+
+Les parcours SOS font partis des parcours spécifiques. {.PourLesProfs}
+
+1. [Créer un parcours spécifique 🆘](pix_parcours)
+
+`endif`
+
+2. [🏠 Retour accueil](menu)
+
+## pix_exemple_travail 
+- Exemple de parcours 
+- Exemple de travail 
+
+**A quoi ressemble de travail à faire sur PIX ?**
+
+*****
+
+J’ai trouvé des parcours en libres accès à l’adresse  [https://pix.fr/parcours-autonomes](https://pix.fr/parcours-autonomes).
+Ils peuvent se réaliser sans inscription en 5 minutes chrono et permettent de se rendre compte du type d’activité à faire bien qu’en réalité cela va dépendre des compétences travaillées ainsi que du niveau atteint.
+
+**Attention, ces parcours ne comptent pas dans le score PIX, ce ne sont que des exemples.**
+
+`if @user==prof`
+
+1. [😱 Un élève n’est pas certifiable, que faire ?](pix_non_certifiable)
+
+`endif`
+
+`if @user==eleve`
+
+2. [😭 Je ne suis pas certifiable, que faire ?](pix_non_certifiable)
+
+`endif`
+
+`if @user==prof || @user==eleve`
+
+3. [Qu'est-ce que je dois faire ?](pix_travail)
+
+`endif`
+
+4. [🏠 Retour accueil](menu)
+
+## pix_parentalité 
+- Pix parentalité
+- Pix parents
+- Pix parentalité
+
+**Comment me former aux compétences numériques pour aider et épauler mon enfant ?**
+
+******
+
+Parents, pour vous aider, que vous soyez à l’aise ou en difficulté avec le numérique, à jouer un rôle actif et éclairé auprès de vos enfants voici des parcours thématiques jouables gratuitement et sans inscription en 5 minutes, pour aborder les compétences numériques indispensables au quotidien ! 
+
+[https://pix.fr/parcours-autonomes](https://pix.fr/parcours-autonomes)
+
+1. [🏠 Retour accueil](menu)
+
+##  pix_certification 
+- Certification 
+
+**Le jour de la certification, je fais quoi ?**
+
+****** 
+
+Informations à venir
+
+1. [🏠 Retour accueil](menu)
+
+## pix_certification_prof 
+- Certification pour les profs
+- Certif prof
+
+**Puis-je passer une certification en tant que prof ?**
+
+*****
+
+`if @user==prof`
+
+<div markdown class=PourLesProfs>
+
+Il est tout à fait possible de passer une certification PIX en tant que professeur en suivant les parcours dédiés **PIX+Edu**.
+L’accès au parcours **PIX+Edu** se fait via un parcours **M@gistère** qui est en auto-inscription et en auto-formation. 💪
+
+Voici le lien Eduscol avec toutes les informations ainsi que le lien vers le M@gistère : 
+- [https://eduscol.education.fr/3839/developpez-vos-competences-numeriques-avec-pix-edu](https://eduscol.education.fr/3839/developpez-vos-competences-numeriques-avec-pix-edu)
+- [https://magistere.education.fr/dgesco/course/view.php?id=2969](https://magistere.education.fr/dgesco/course/view.php?id=2969)
+
+</div>
+
+1. [🏠 Retour accueil](menu)
+
+`endif`
