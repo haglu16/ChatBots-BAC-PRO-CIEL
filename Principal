@@ -1,0 +1,162 @@
+---
+tags: LMbot
+title: LMbot-main
+style: .displayHomepage h2 aside {display:inline-block} .displayHomepage img{float:left;margin-right:1em;margin-bottom:1em;} body{background-color:#212f3c;background-image:url();background-attachment:fixed,scroll;background-repeat:no-repeat,repeat-y;font-family:Arial;color:#2d2828} .center{font-size:5px;margin:20px} .container{height:100px;display:flex;flex-direction:row-reverse;flex-wrap:nowrap;justify-content:flex-end;align-items:center;align-items:center;justify-content:center;margin:2px} main{background:rgba(253, 251, 251, 0.9);} .user-message{background-color:#5B8986} .message{width:98%} .message pre:first-child, .message table:first-child {margin-left:0px !important;} pre{padding:2px;width:165px;height:90px;border:0px} .PourLesProfs{color:blue}; .PourLesProfs a{color:blue} .bot-message ul.messageOptions li>a:hover {background-color:#5B8986;border-color:#5B8986} h1{color:#E8EBEC} .success .admonitionTitle, .tip .admonitionTitle {color:#212f3c} .admonition.success{background-color:#d6e8e3}
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_7e395464285fc8a0ed5a035cbf20e2b1.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_7e395464285fc8a0ed5a035cbf20e2b1.png
+footer: 'Bot construit par <a href="https://mastodon.social/@gchazeaux" target="_blank" >@gchazeaux</a> avec <a href="https://chatmd.forge.apps.education.fr/" target="_blank" >ChatMD</a> de <a href="https://scholar.social/@eyssette" target="_blank" >C.Eysette 👏</a>'
+contenuDynamique: true
+typewriter: true
+messageParDéfaut: ["Désolé, je suis encore en train d'apprendre et n'ai pas la réponse à votre question. Contactez l'établissement pour plus d'information.", "Je n'ai pas encore appris la réponse à cette question. Peut-être qu'en contactant directement l'établissement, vous pourrez obtenir plus d'informations ?"]
+theme: colors
+include: ['https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/2b4100c4f2b9ddc52a8a24ca20231e5fe6bf1732/LM%20ciel%20Prof', 'https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/2b4100c4f2b9ddc52a8a24ca20231e5fe6bf1732/LM%20Commun', 'https://codimd.apps.education.fr/s/2M_L1at4I', 'https://codimd.apps.education.fr/s/T2S6Qwq6R', 'https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/2b4100c4f2b9ddc52a8a24ca20231e5fe6bf1732/LM%20Pix', 'https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/2b4100c4f2b9ddc52a8a24ca20231e5fe6bf1732/LM%20LC', 'https://github.com/haglu16/ChatBots-BAC-PRO-CIEL/blob/2b4100c4f2b9ddc52a8a24ca20231e5fe6bf1732/LM%20Eleve' ]
+variables:
+    Louise: <span style="color:#143E4A">**Louise**</span>
+    LM: <span style="color:#143E4A">**le lycée professionnel Louise Michel**</span>
+
+
+---
+
+# Lycée professionnel Louise Michel<br><span style="color:#5B8986"> Besoin d'aide ?</span>
+
+<center>![Logo-LM](https://minio.apps.education.fr/codimd-prod/uploads/upload_77a29b5471fa9b089ea9fb67a9be3bdb.png =280x150)</center>
+
+<!-- Pas besoin d'entrée clavier ici, orientation principale du chatbot -->
+
+`@KEYBOARD = false`
+
+*****
+
+Bonjour, je suis @{Louise},<br><br> un chatbot programmé pour répondre à vos questions concernant @{LM}.
+
+:::success collapsible Important à savoir
+<br>Je suis en constante évolution et n'aurais probablement pas les réponses à toutes les questions.<br><br>Dans ce cas, n'hésitez pas à [🏫 Contacter l'établissement](#contact).
+:::
+*****
+
+Tout d'abord, faisons plus ample connaissance. Cela me permettra de mieux vous aider.
+
+**Qui êtes-vous ?**
+*****
+
+1. [👨‍🎓 Un élève](accueil_eleve)
+2. [👨‍🏫 Un personnel de l'établissement](accueil_prof)
+3. [👨‍👧‍👦 Un parent d'élève](accueil_parent) 
+4. [👤 Une personne extérieure à l'établissement](accueil_ext)
+
+
+<!-- Ici uniquement les pages d'accueil général en fonction des profils.
+Le contenu est réparti dans les différents fichiers -->
+
+## menu
+
+**Qui êtes-vous ?**
+
+*****
+
+1. [👨‍🎓 Un élève](accueil_eleve)
+2. [👨‍🏫 Un personnel de l'établissement](accueil_prof)
+3. [👨‍👧‍👦 Un parent d'élève](accueil_parent) 
+4. [👤 Une personne extérieure à l'établissement](accueil_ext)
+
+
+## accueil_eleve
+
+`@user = eleve`
+
+👨‍🎓 **Comment puis-je t'aider ?**
+
+******
+
+Je suis ravi de pouvoir discuter avec toi. ☺️
+Laisse toi guider par les questions qui s'affichent ci-dessous ou écris directement ta question en bas de cette page.
+
+Ma question concerne...
+
+3. [Les formations au lycée](LM_formation)
+4. [Les plateaux techniques en 360](360)
+5. [Mon orientation](orient)
+6. [Les pfmp](pfmp)
+7. [PIX](pix)
+2. [Lycée connecté](LyceeC)
+8. [Le programme pHARE](phare)
+9. [l'ASSR](assr)
+10. [Un autre domaine ...](autres)
+
+
+## LM_formation
+
+👨‍🎓 **De quel formation voulez vous des informations ?**
+
+*****
+1. [🎓 BTS FED DBC](DBC)
+2. [🎓 CS E2S](E2S)
+3. [🎓 Bac pro CIEL](CIEL)
+4. [🎓 Bac pro TCB](TCB)
+5. [🎓 Bac pro AFB](AFB)
+6. [🎓 Cap IMTB](IMTB)
+7. [🎓 3éme prépa-métiers](3pmet)
+8. [↩️ Retour menu](accueil_eleve)
+
+## accueil_prof
+
+👨‍🏫 **Comment puis-je t'aider ?**
+
+*****
+
+Je suis ravi de pouvoir discuter avec vous. ☺️
+Laisse toi guider par les questions qui s'affichent ci-dessous ou écris ta question directement en bas de cette page.
+
+Ma question concerne...
+
+1. [Les formations au lycée](LM_formation)
+2. [Les plateaux techniques en 360](360)
+3. [le bac professionnel](Bac)
+4. [le cap](Cap)
+5. [le brevet des collèges](dnb)
+6. [Lycée connecté](LyceeC)
+7. [PIX](pix)
+8. [les tablettes ou ordinateurs 💻](Profs-Materiel)
+9. [Je veux contacter l'établissement](contact)
+
+## accueil_parent
+
+👨‍👧‍👦 **Comment puis-je vous aider ?**
+
+*****
+
+Je suis ravi de pouvoir discuter avec vous. ☺️
+Laissez-vous guider par les questions qui s'affichent ci-dessous ou écrivez directement votre question en bas de cette page.
+
+Ma question concerne...
+
+1. [Les formations au lycée](LM_formation)
+2. [Les plateaux techniques en 360](360)
+3. [le bac professionnel](Bac)
+4. [le cap](Cap)
+5. [le brevet des collèges](dnb)
+6. [PIX](pix)
+7. [Lycée connecté](LyceeC)
+8. [l'ASSR](assr)
+9. [Je veux contacter l'établissement](contact)
+
+
+## accueil_ext
+
+**Comment puis-je vous aider ?**
+
+*****
+
+Je suis ravi de pouvoir discuter avec vous. ☺️
+
+1. [Découvrir les formations au lycée](LM_formation)
+2. [Voir les plateaux techniques en 360](360)
+3. [Je veux contacter l'établissement](contact)
+
+## main
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/32d906b6ef3c71bcdd402521a.png)
