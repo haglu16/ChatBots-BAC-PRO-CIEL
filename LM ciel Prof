@@ -1,0 +1,78 @@
+---
+tags: LMbot
+title: LMbot-PROF
+---
+
+## Profs-Materiel
+- numérique
+- matériel
+
+`if @user==prof`
+
+**Sur lequel de ces sujets souhaites-tu que je t'éclaire ?**
+*****
+1. [Les classes mobiles](CM)
+2. [Lycée connecté](LC)
+3. [Les ressources numériques disponible au lycée](ressources)
+4. [Autres](autres)
+5. [🏠 Retour accueil](menu)
+
+`endif`
+
+
+## CM
+- mobile
+- ordinateurs
+
+
+`if @user==prof`
+*****
+Tout personnel de l'établissement peut réserver les deux classes mobiles à disposition depuis la réservation de ressources sur Pronote. 
+
+⚠️ Dorénavant il y a un cadenas sur les chariots, il faut demander la clef à la loge d'accueil du lycée.
+
+1. [🏠 Retour menu](Profs-Materiel)
+
+`endif`
+
+
+## LC
+
+- outils
+- numérique
+- ent
+- ENT
+
+`if @user==prof`
+
+Vous pouvez consulter cette page pour avoir de l'aide sur les outils de Lycée connecté.
+
+1. [🏠 Retour menu](Profs-Materiel)
+
+`endif`
+
+
+`if @user==parent`
+
+Vous pouvez consulter les outils de Lycée connecté dont pronote en ce connectant avec vos identifiants Educonnect. 
+
+Pour l'utilisation des outils de Lycée connecté vous pouvez consulter ["Le Blog - Manuel d'utilisation"](https://opendigitaleducation.gitbook.io/manuel-utilisation-neo/blog) ou bien consulter [le chatbot Lycée connecté](https://chatmd.forge.apps.education.fr/#https://codimd.apps.education.fr/s/EmEaHBiTt).
+
+1. [Retour menu](accueil_parent)
+
+
+`endif`
+
+## autres
+
+`if @user==prof`
+*****
+Informations à venir ...
+
+1. [🏠 Retour menu](Profs-Materiel)
+
+`endif`
+
+
+## ressouce3
+
