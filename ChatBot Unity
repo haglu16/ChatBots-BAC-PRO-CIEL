@@ -41,41 +41,41 @@ Hugo Hérault
 
 Qui est le concurent de Unity?
 
-1. [Unreal Engine @score=calc(@score+1)](eval2)
-2. [Super Moteur de jeu 2000](eval2)
-3. [Les concurent mieux que Unity](eval2)
+1) [Unreal Engine @score=calc(@score+1)](eval2)
+2) [Super Moteur de jeu 2000](eval2)
+3) [Les concurent mieux que Unity](eval2)
 
 ## eval2
 
 Combien y a-t-il d'onglet principal dans unity Hub ?
 
-1. [5](eval3)
-2. [3 @score=calc(@score+1](eval3)
-3. [2](eval3)
+1) [5](eval3)
+2) [3 @score=calc(@score+1](eval3)
+3) [2](eval3)
 
 ## eval3
 
 avec quoi paramétre t-on les objets ?
 
-1. [des script et extention @score=calc(@score+1)](eval4)
-2. [des boutons](eval4)
-3. [seulement des extention](eval4)
+1) [des script et extention @score=calc(@score+1)](eval4)
+2) [des boutons](eval4)
+3) [seulement des extention](eval4)
 
 ## eval4
 
 quand faut-il compiler le jeu ?
 
-1. [au début](eval5)
-2. [au milieux](eval5)
-3. [a la fin  @score=calc(@score+1)](eval5)
+1) [au début](eval5)
+2) [au milieux](eval5)
+3) [a la fin  @score=calc(@score+1)](eval5)
 
 ## eval5
 
 a quoi cert-il de compliler un jeu?
 
-1. [a réduire la taille des fichier](score)
-2. [a rendre le jeu jouable @score=calc(@score+1)](score)
-3. [a publier le jeu](score)
+1) [a réduire la taille des fichier](score)
+2) [a rendre le jeu jouable @score=calc(@score+1)](score)
+3) [a publier le jeu](score)
 
 ## score
 
