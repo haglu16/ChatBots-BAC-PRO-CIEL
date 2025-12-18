@@ -1,0 +1,684 @@
+---
+clavier: true
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/fb9de8dcc587cddb8300de125.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/fb9de8dcc587cddb8300de126.png
+tags: Mathématiques, chatbot
+---
+
+# Mathématiques
+
+voici un chatbot pour réviser les Mathématiques
+![](https://minio.apps.education.fr/codimd-prod/uploads/fb9de8dcc587cddb8300de12a.png)
+
+1. [acceder au leçon](menu)
+
+## menu
+
+1. [Algèbre](algebre)
+2. [Analyse](analyse)
+3. [Géométrie](geometrie)
+4. [Proba/ Stats/ Algo](proba/)
+5. [Crédit](credit)
+
+## algebre
+
+1. [Suites](suite)
+2. [Equations du second degrès](2degres)
+
+## analyse
+
+1. [Dérivation](derivation)
+2. [Variation](variation)
+3. [Fonction exponentielle](fonction)
+4. [Trigonométrie](trigo)
+
+## geometrie
+
+1. [Calcul vectoriel et produit scalaire](vecteur)
+2. [Géométrie repérée](repère)
+
+## proba/
+
+1. [Probabilités](probabilité)
+2. [Variable](variable)
+3. [Algorithme](algorithme)
+
+## credit
+
+Hugo HÉRAULT
+
+## suite
+
+- suite
+
+Il y a deux types de suite, les suites arithmétiques et géométriques, quelles type de suites veux-tu réviser ?
+
+1. [Arithmétiques](arithmetique)
+2. [Géométriques](geometriques)
+
+## arithmetique
+
+- arithmetique
+
+Une suite arithmetique est une série de nombres où l'on passe de l'un à l'autre en ajoutant toujours la même quantité.
+
+Chaque nobre est appeler "terme" on le note u.
+
+Et la raison qu'on note r est le nombre qu'on ajoute au terme.
+
+1. [retour menu](menu)
+
+## geometriques
+
+- geometriques
+
+Une suite géométrique est une séquence de nombres où chaque terme, à partir du deuxième, s'obtient en multipliant le terme précédent par un nombre fixe appelé la raison. Contrairement aux suites arithmétiques qui ajoutent, les suites géométriques multiplient.
+
+Les thermes sont comment pour les suite arithmetiques la diférence est que la raison est noter Q.
+
+1. [retour menu](menu)
+
+## 2degres
+
+- second degres
+
+Une équation du second degré, est une équation qui peut s'écrire sous la forme générale :
+
+ax²+bx+c=0 (ou a≠0)
+
+La méthode la plus courante pour résoudre ces équations implique le calcul du discriminant, noté Δ (delta)
+
+Dans un premier temp il faut calculer Δ pour ce faire on utilise la formule : 
+
+Δ=b²-4ac
+
+Une fois que nous possédons le Δ nous pouvons savoir combien il y a de sollution, il y a 3 possibiliter :
+
+La première est si Δ>0 l'équation a deux solutions : 
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/il7odesijwt6h9dbjaqjj9z0v.png)
+
+La deuxieme dans le cas ou Δ=0 l'équation a une solution : 
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/yy5q3shubfi4dou11hgk21u3v.png)
+
+Et la dernière solution est que si Δ<0 alors il n'y a pas de solution.
+
+1. [retour menu](menu)
+
+## derivation
+
+- derivation
+
+la dérivée d'une fonction mesure comment la valeur de cette fonction change par rapport à une petite variation de sa variable. C'est le taux de variation instantané de la fonction.
+
+
+
+1. [Retour menu](menu)
+
+## variation
+
+- variation
+
+L'étude des variations sert à déterminer quand une fonction augmente, diminue ou atteint un sommet (maximum/minimum).
+
+1. [Retour menu](menu)
+2. [La Dérivée f'(x)](La Dérivée $f'(x)$)
+3. [étude complète](étude complète)
+4. [Dérivées usuelles](dérivées usuelles)
+5. [Exemple](Exemple)
+6. [Maximum et Minimum : Les Extremums](Maximum et Minimum : Les Extremums)
+
+
+## La Dérivée $f'(x)$
+
+Pour connaître les variations d'une fonction $f$, on regarde le **signe** de sa dérivée $f'$.
+
+* **Si $f'(x) > 0$** : La fonction est **croissante** (elle monte $\nearrow$).
+* **Si $f'(x) < 0$** : La fonction est **décroissante** (elle descend $\searrow$).
+* **Si $f'(x) = 0$** : La fonction change de sens (il y a un **extremum**).
+
+1. [Retour menu](variation)
+
+## étude complète
+
+Suivez toujours ces 4 étapes :
+
+1.  **Calculer la dérivée $f'(x)$** en utilisant les formules du cours.
+2.  **Chercher la valeur où $f'(x) = 0$** (résoudre l'équation).
+3.  **Déterminer le signe de $f'(x)$** (est-ce positif ou négatif sur l'intervalle ?).
+4.  **Dresser le tableau de variations** avec les flèches de direction.
+
+1. [Retour menu](variation)
+
+## dérivées usuelles
+| Fonction $f(x)$ | Dérivée $f'(x)$ |
+| :--- | :--- |
+| Un nombre seul (ex: $5$) | $0$ |
+| $x$ | $1$ |
+| $ax$ (ex: $3x$) | $a$ (ex: $3$) |
+| $x^2$ | $2x$ |
+| $x^3$ | $3x^2$ |
+
+1. [Retour menu](variation)
+
+## Exemple
+Soit $f(x) = x^2 - 6x + 8$ sur l'intervalle $[0 ; 10]$.
+
+1.  **Dérivée** : $f'(x) = 2x - 6$
+2.  **Trouver le zéro** : $2x - 6 = 0 \implies 2x = 6 \implies x = 3$
+3.  **Signe de $f'(x)$** : 
+    * Avant $3$, $f'(x)$ est négative (ex: pour $x=0$, $f'(0)=-6$).
+    * Après $3$, $f'(x)$ est positive.
+4.  **Variations** : La fonction descend jusqu'à $x=3$, puis elle remonte.
+
+1. [Retour menu](variation)
+
+## Maximum et Minimum : Les Extremums
+* **Le Minimum** : C'est la valeur la plus basse de la fonction.
+* **Le Maximum** : C'est la valeur la plus haute de la fonction.
+> **Note :** On les trouve toujours là où la dérivée s'annule ($f'(x) = 0$).
+
+1. [Retour menu](variation)
+
+## fonction
+
+Pour étudier les variations d'une fonction, il faut d'abord calculer sa dérivée. C'est elle qui nous dit si la courbe monte ou descend. Pour cela, on utilise des formules de calcul selon le type de fonction.
+
+
+
+Une fois le calcul fait, il faut trouver quand cette dérivée est égale à zéro pour savoir où la courbe change de direction. Il suffit de résoudre l'équation $f'(x) = 0$.
+
+1. [Étudier le signe de la dérivée](signe)
+2. [Construire le tableau de variations](tableau de variations)
+3. [Trouver les extremums (Max/Min)](extremums)
+4. [Définition et utilité](définition)
+5. [Voir un exercice type](exercice type)
+6. [retour au menu](menu)
+
+## signe
+
+Une fois la dérivée calculée, l'étape la plus importante est de déterminer son signe (positif ou négatif) sur l'intervalle demandé.
+- Si la dérivée est **positive (+)**, la fonction de base augmente.
+- Si la dérivée est **négative (-)**, la fonction de base diminue.
+
+
+
+On résout souvent une petite équation (comme $2x - 4 = 0$) pour trouver le moment précis où la dérivée s'annule et change de signe.
+
+1. [retour au menu](fonction)
+
+## tableau de variations
+
+Le tableau de variations est le résumé visuel de tout votre exercice. Il permet de voir d'un seul coup d'œil le comportement de la fonction.
+Il se compose de trois lignes : 
+1. La ligne des valeurs de **$x$**.
+2. La ligne du signe de la dérivée **$f'(x)$**.
+3. La ligne des flèches pour la fonction **$f(x)$**.
+
+
+
+N'oubliez pas de calculer les valeurs aux extrémités des flèches pour que le tableau soit complet.
+
+1. [retour au menu](fonction)
+
+## extremums
+
+Un extremum est soit un **Maximum** (le sommet d'une bosse), soit un **Minimum** (le creux d'une vallée).
+Dans les problèmes de Terminale Pro, cela correspond souvent à un profit maximum ou à un coût de fabrication minimum pour une entreprise.
+
+
+
+[Image of local maximum and minimum on a function graph]
+
+
+Pour le trouver, on regarde simplement la valeur de $x$ dans le tableau de variations là où la flèche change de sens.
+
+1. [retour au menu](fonction)
+
+## définition
+
+L'étude de variations est un outil mathématique utilisé dans presque tous les secteurs pro (gestion, industrie, bâtiment). Elle permet de modéliser des évolutions pour prendre les meilleures décisions.
+Contrairement à la lecture graphique qui peut être imprécise, le calcul de la dérivée donne un résultat exact et prouvé mathématiquement.
+
+1. [retour au menu](fonction)
+
+## exercice type
+
+Pour bien s'entraîner, il faut suivre la méthode pas à pas :
+1. **Dériver** la fonction donnée : $f(x) \rightarrow f'(x)$
+2. Faire le **tableau de signe** de $f'(x)$
+3. Dessiner les **flèches** de variation
+4. Calculer les **valeurs** (images) pour compléter le tableau.
+
+
+
+Vérifiez toujours vos résultats à la calculatrice en affichant la courbe pour voir si vos flèches correspondent bien au dessin.
+
+1. [retour au menu](fonction)
+
+## trigo
+
+La trigonométrie permet de calculer des longueurs et des angles dans les triangles, mais aussi d'étudier des phénomènes périodiques (comme le courant électrique ou les marées). En Terminale Pro, on utilise principalement le cercle trigonométrique et les fonctions Sinus et Cosinus.
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/qae085b4w05w4063e6tw5cmja.png)
+
+
+Pour réussir, il faut savoir utiliser sa calculatrice en mode Degré ou Radian selon l'énoncé.
+
+1. [Le cercle trigonométrique](cercle)
+2. [Sinus et Cosinus](sinus cosinus)
+3. [Calculer un angle ou une longueur](calculs)
+4. [Définition trigo](definition trigo)
+5. [Exercice trigo](exercice trigo)
+6. [retour au menu](menu)
+
+## cercle
+
+Le cercle trigonométrique est un cercle de rayon 1. Il permet de lire directement les valeurs du cosinus (sur l'axe horizontal) et du sinus (sur l'axe vertical) pour n'importe quel angle.
+- L'axe des **abscisses (x)** = Cosinus
+- L'axe des **ordonnées (y)** = Sinus
+
+![](https://minio.apps.education.fr/codimd-prod/uploads/s7wjyda8njzvbbs8gmmy83gpx.png)
+
+On mesure les angles en degrés ou en **radians** (un tour complet fait $2\pi$ radians).
+
+1. [retour au menu](trigo)
+
+## sinus cosinus
+
+Les fonctions $f(x) = \sin(x)$ et $g(x) = \cos(x)$ sont appelées fonctions périodiques. Cela signifie qu'elles se répètent à l'infini comme une vague.
+- La valeur maximale est toujours **1**.
+- La valeur minimale est toujours **-1**.
+
+La distance entre deux sommets s'appelle la **période** (notée $T$).
+
+1. [retour au menu](trigo)
+
+## calculs
+
+Pour calculer une longueur ou un angle dans un triangle rectangle, on utilise les formules :
+- **SOH** : $\sin(\text{angle}) = \frac{\text{Opposé}}{\text{Hypoténuse}}$
+- **CAH** : $\cos(\text{angle}) = \frac{\text{Adjacent}}{\text{Hypoténuse}}$
+- **TOA** : $\tan(\text{angle}) = \frac{\text{Opposé}}{\text{Adjacent}}$
+
+Pour trouver l'angle sur la calculatrice, on utilise les touches `2nd` + `sin` (noté $\sin^{-1}$ ou $\text{Arcsin}$).
+
+1. [retour au menu](trigo)
+
+## definition trigo
+
+La trigonométrie vient du grec "mesure du triangle". C'est un outil indispensable en menuiserie, en électricité (alternatif), en mécanique et même en navigation GPS.
+Elle permet de transformer un mouvement de rotation (cercle) en un mouvement de translation (vague).
+
+1. [retour au menu](trigo)
+
+## exercice trigo
+
+Un exercice classique consiste à calculer la hauteur d'un bâtiment à partir d'un angle et d'une distance au sol.
+1. Identifier le triangle rectangle.
+2. Choisir la bonne formule (SOH, CAH ou TOA).
+3. Remplacer par les valeurs et faire le produit en croix.
+
+Attention : Vérifiez bien que votre calculatrice affiche **DEG** si vous travaillez en degrés !
+
+1. [retour au menu](trigo)
+
+## vecteur
+
+Un vecteur est un outil mathématique qui permet de représenter un déplacement. Contrairement à un simple nombre, un vecteur possède une direction, un sens et une longueur (norme). En Terminale Pro, on les utilise beaucoup pour représenter des forces en mécanique ou des déplacements sur un plan.
+
+
+
+On note souvent un vecteur avec une flèche au-dessus : $\vec{u}$ ou $\vec{AB}$.
+
+1. [Coordonnées d'un vecteur](coordonnees)
+2. [Somme de vecteurs](somme)
+3. [Norme d'un vecteur](norme)
+4. [Définition vecteur](definition vecteur)
+5. [Exercice vecteur](exercice vecteur)
+6. [retour au menu](menu)
+
+## coordonnees
+
+Dans un repère $(O, I, J)$, un vecteur $\vec{u}$ a deux coordonnées : $x$ (déplacement horizontal) et $y$ (déplacement vertical).
+Si on connaît les points $A(x_A ; y_A)$ et $B(x_B ; y_B)$, les coordonnées du vecteur $\vec{AB}$ se calculent ainsi :
+$$\vec{AB} \begin{pmatrix} x_B - x_A \\ y_B - y_A \end{pmatrix}$$
+
+
+
+> **Astuce :** C'est toujours "l'arrivée moins le départ" !
+
+1. [retour au menu](vecteur)
+
+## somme
+
+On peut additionner deux vecteurs. Graphiquement, cela revient à les mettre "bout à bout".
+- **Relation de Chasles :** $\vec{AB} + \vec{BC} = \vec{AC}$.
+- **Calcul :** On additionne les $x$ entre eux et les $y$ entre eux.
+
+
+
+Si $\vec{u} \begin{pmatrix} 2 \\ 3 \end{pmatrix}$ et $\vec{v} \begin{pmatrix} 4 \\ -1 \end{pmatrix}$, alors $\vec{u} + \vec{v} = \begin{pmatrix} 2+4 \\ 3-1 \end{pmatrix} = \begin{pmatrix} 6 \\ 2 \end{pmatrix}$.
+
+1. [retour au menu](vecteur)
+
+## norme
+
+La norme d'un vecteur, notée $||\vec{u}||$, représente sa longueur. Pour la calculer à partir des coordonnées $\begin{pmatrix} x \\ y \end{pmatrix}$, on utilise une formule dérivée du théorème de Pythagore :
+$$||\vec{u}|| = \sqrt{x^2 + y^2}$$
+
+
+
+La norme est toujours un nombre positif car c'est une distance.
+
+1. [retour au menu](vecteur)
+
+## definition vecteur
+
+Un vecteur est défini par trois éléments inséparables :
+1. Sa **direction** (la droite sur laquelle il se trouve).
+2. Son **sens** (vers où pointe la flèche).
+3. Sa **norme** (sa longueur).
+
+Deux vecteurs sont dits "égaux" s'ils ont la même direction, le même sens et la même norme, même s'ils ne sont pas au même endroit.
+
+1. [retour au menu](vecteur)
+
+## exercice vecteur
+
+Un exercice classique consiste à vérifier si un quadrilatère $ABCD$ est un parallélogramme.
+1. Calculer les coordonnées du vecteur $\vec{AB}$.
+2. Calculer les coordonnées du vecteur $\vec{DC}$.
+3. Si $\vec{AB} = \vec{DC}$, alors c'est un parallélogramme.
+
+
+
+Une autre variante consiste à calculer la force résultante de deux câbles qui tirent un objet en additionnant leurs vecteurs forces.
+
+1. [retour au menu](vecteur)
+
+## repère
+
+Un repère permet de fixer la position d'un point dans le plan grâce à des nombres appelés coordonnées. C'est la base de la géométrie, mais aussi de la lecture de plans ou de la programmation de machines à commande numérique (CNC).
+
+[Image d'un repère orthogonal avec les axes et un point placé]
+
+Un point $M$ est toujours défini par son couple $(x ; y)$.
+
+1. [Axes et coordonnées](axes)
+2. [Calcul de distance](distance)
+3. [Milieu d'un segment](milieu)
+4. [Définition repère](definition repere)
+5. [Exercice repère](exercice repere)
+6. [retour au menu](menu)
+
+## axes
+
+Dans un repère classique (souvent appelé orthonormé), on trouve deux droites perpendiculaires :
+- L'axe horizontal : l'axe des **abscisses** ($x$).
+- L'axe vertical : l'axe des **ordonnées** ($y$).
+- Le point d'intersection : l'**origine** $O$ du repère, de coordonnées $(0 ; 0)$.
+
+[Image montrant l'axe des abscisses et l'axe des ordonnées colorés différemment]
+
+Pour lire les coordonnées d'un point, on projette toujours d'abord sur l'axe horizontal ($x$), puis sur l'axe vertical ($y$).
+
+1. [retour au menu](repère)
+
+## distance
+
+Dans un repère, on peut calculer la distance exacte entre deux points $A(x_A ; y_A)$ et $B(x_B ; y_B)$ grâce à la formule :
+$$AB = \sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}$$
+
+[Image illustrant la formule de distance comme l'hypoténuse d'un triangle]
+
+Cette formule est très utile en atelier pour vérifier une longueur à partir de relevés de points.
+
+1. [retour au menu](repère)
+
+## milieu
+
+Pour trouver les coordonnées du point $I$, milieu du segment $[AB]$, on fait simplement la moyenne des coordonnées de $A$ et de $B$ :
+$$x_I = \frac{x_A + x_B}{2} \quad \text{et} \quad y_I = \frac{y_A + y_B}{2}$$
+
+[Image montrant un segment avec son point milieu calculé graphiquement]
+
+C'est une méthode rapide pour trouver le centre d'une pièce ou d'une surface.
+
+1. [retour au menu](repère)
+
+## definition repere
+
+Il existe différents types de repères :
+- **Orthogonal** : les axes sont perpendiculaires.
+- **Orthonormé** : les axes sont perpendiculaires ET les unités sont les mêmes sur les deux axes (1cm en $x$ vaut 1cm en $y$).
+
+C'est le système utilisé par les logiciels de dessin industriel (CAO) pour situer chaque pièce.
+
+1. [retour au menu](repère)
+
+## exercice repere
+
+Un exercice fréquent demande de prouver qu'un triangle est isocèle ou rectangle :
+1. Calculer les distances des trois côtés ($AB$, $BC$, $AC$).
+2. Si deux distances sont égales, le triangle est isocèle.
+3. Si le théorème de Pythagore se vérifie ($AB^2 + BC^2 = AC^2$), alors il est rectangle.
+
+[Image d'un triangle placé dans un repère avec ses mesures de côtés]
+
+1. [retour au menu](repère)
+
+## probabilité
+
+L'étude des probabilités permet de mesurer les chances qu'un événement se produise. C'est un outil essentiel pour la gestion des risques, les assurances, les sondages et le contrôle qualité en industrie. La probabilité d'un événement est toujours un nombre compris entre **0** (impossible) et **1** (certain).
+
+
+
+1. [Vocabulaire de base](vocabulaire)
+2. [Calcul de probabilité](calcul proba)
+3. [Arbres de probabilités](arbres)
+4. [Définition proba](definition proba)
+5. [Exercice proba](exercice proba)
+6. [retour au menu](menu)
+
+## vocabulaire
+
+Pour bien comprendre les probabilités, il faut maîtriser quelques termes :
+- **Issue** : Un résultat possible d'une expérience (ex: obtenir 6 avec un dé).
+- **Événement** : Un ensemble d'issues (ex: "obtenir un chiffre pair").
+- **Événement contraire** : L'inverse d'un événement, noté $\bar{A}$. Sa probabilité est $P(\bar{A}) = 1 - P(A)$.
+- **Événement incompatible** : Deux événements qui ne peuvent pas se produire en même temps.
+
+
+
+1. [retour au menu](probabilité)
+
+## calcul proba
+
+Dans une situation où toutes les issues ont la même chance de se produire (équiprobabilité), on utilise la formule :
+$$P(A) = \frac{\text{Nombre d'issues favorables}}{\text{Nombre d'issues total}}$$
+
+Exemple : Dans un jeu de 32 cartes, la probabilité de tirer un roi est de $4/32 = 1/8$ soit $0,125$ (ou 12,5%).
+
+1. [retour au menu](probabilité)
+
+## arbres
+
+L'arbre de probabilités (ou arbre de choix) est la méthode la plus simple pour visualiser une expérience à plusieurs étapes (ex: deux tirages successifs).
+- On multiplie les probabilités le long d'un **chemin**.
+- On additionne les probabilités des différents chemins qui mènent au résultat voulu.
+
+
+
+La somme des probabilités des branches issues d'un même nœud est toujours égale à **1**.
+
+1. [retour au menu](probabilité)
+
+## definition proba
+
+Une probabilité exprime la fréquence théorique d'un événement si on répétait l'expérience un très grand nombre de fois.
+Elle peut s'écrire sous trois formes :
+- Une **fraction** : $1/4$
+- Un **nombre décimal** : $0,25$
+- Un **pourcentage** : $25\%$
+
+En entreprise, cela permet de prévoir le taux de pièces défectueuses sur une chaîne de production.
+
+1. [retour au menu](probabilité)
+
+## exercice proba
+
+Un exercice classique consiste à utiliser un tableau à double entrée ou un arbre :
+"Dans une usine, 60% des pièces viennent de la machine A, 40% de la machine B. La machine A produit 2% de pièces défectueuses..."
+1. Construire l'arbre avec les pourcentages convertis en décimaux (0,6 ; 0,4...).
+2. Calculer la probabilité qu'une pièce soit défectueuse ET vienne de la machine A.
+3. Calculer la probabilité totale d'avoir une pièce défectueuse.
+
+1. [retour au menu](probabilité)
+
+## variable
+
+En mathématiques et en informatique, une variable est un "conteneur" qui permet de stocker une valeur qui peut changer. Elle est représentée par une lettre (souvent $x$, $y$, $z$ ou $n$) ou un nom. Comprendre les variables est essentiel pour résoudre des équations ou créer des programmes.
+
+
+
+1. [Types de variables](types)
+2. [Équations et Inconnues](inconnues)
+3. [Affectation et Algorithme](algorithme)
+4. [Définition variable](definition variable)
+5. [Exercice variable](exercice variable)
+6. [retour au menu](menu)
+
+## types
+
+Il existe différents types de variables selon ce qu'elles contiennent :
+- **Variables numériques** : contiennent des nombres (ex: $x = 5$).
+- **Variables qualitatives** : contiennent des catégories ou du texte (ex: "Couleur").
+- **Variables discrètes** : ne peuvent prendre que des valeurs entières (ex: nombre d'élèves).
+- **Variables continues** : peuvent prendre n'importe quelle valeur dans un intervalle (ex: taille en cm, température).
+
+
+
+1. [retour au menu](variable)
+
+## inconnues
+
+Dans une équation, la variable est appelée l'**inconnue**. Le but est de trouver la valeur de cette variable pour que l'égalité soit vraie.
+Exemple : $2x + 3 = 11$. Ici, $x$ est la variable.
+En isolant $x$, on trouve que la variable doit valoir $4$.
+
+
+
+1. [retour au menu](variable)
+
+## algorithme
+
+En algorithmique, on manipule les variables avec des instructions :
+- **Déclarer** : Créer la variable.
+- **Affecter** : Lui donner une valeur (ex: $x \leftarrow 10$).
+- **Calculer** : Modifier sa valeur (ex: $x \leftarrow x + 1$).
+
+
+
+C'est ce qui se passe dans les scripts Unity ou dans les programmes de calculatrice quand vous entrez une valeur.
+
+1. [retour au menu](variable)
+
+## definition variable
+
+Une variable est une entité qui peut prendre différentes valeurs au cours d'un processus. 
+- En **fonctions**, $x$ est la variable d'entrée (l'antécédent).
+- En **statistiques**, c'est le caractère étudié (ex: le prix d'un produit).
+- En **programmation**, c'est un espace réservé dans la mémoire de l'ordinateur.
+
+1. [retour au menu](variable)
+
+## exercice variable
+
+Un exercice classique consiste à suivre un programme de calcul :
+1. Choisir un nombre ($x$)
+2. Lui ajouter 5 ($x + 5$)
+3. Multiplier le résultat par 2 ($2(x + 5)$)
+4. Soustraire 10 ($2x + 10 - 10 = 2x$)
+
+On demande souvent de prouver que le résultat final est toujours le double du nombre de départ, quelle que soit la valeur de la variable choisie.
+
+1. [retour au menu](variable)
+
+## algorithme
+
+Un algorithme est une suite d'instructions précises et ordonnées qui permet de résoudre un problème ou d'obtenir un résultat. C'est la "recette" que suit un ordinateur ou une machine (comme une imprimante 3D ou un automate). En maths, on les utilise pour automatiser des calculs ou tester des conditions.
+
+
+
+1. [Les structures de base](structures)
+2. [Les variables en algo](variables algo)
+3. [Les boucles](boucles)
+4. [Définition algorithme](definition algorithme)
+5. [Exercice algorithme](exercice algorithme)
+6. [retour au menu](menu)
+
+## structures
+
+Un algorithme utilise principalement trois types de structures pour fonctionner :
+- **Séquence** : les instructions s'exécutent l'une après l'autre.
+- **Condition (Si... Alors... Sinon)** : permet de faire un choix. 
+- **Entrée/Sortie** : "Saisir" pour demander une donnée à l'utilisateur, et "Afficher" pour donner le résultat.
+
+
+
+Exemple : SI la note $\ge 10$, ALORS afficher "Admis", SINON afficher "Refusé".
+
+1. [retour au menu](algorithme)
+
+## variables algo
+
+Pour qu'un algorithme fonctionne, il doit stocker des informations dans des **variables**. 
+L'opération principale est l'**affectation**, notée souvent avec une flèche ($\leftarrow$). 
+Exemple : $A \leftarrow 5$ signifie que la variable $A$ prend la valeur $5$. 
+
+
+
+Si on fait ensuite $A \leftarrow A + 2$, la nouvelle valeur de $A$ sera $7$. L'ancienne valeur ($5$) est effacée.
+
+1. [retour au menu](algorithme)
+
+## boucles
+
+Les boucles servent à répéter des instructions sans avoir à les réécrire plusieurs fois :
+- **Boucle Pour (Pour $i$ allant de 1 à $n$)** : quand on connaît à l'avance le nombre de répétitions.
+- **Boucle Tant que (Tant que condition vraie)** : quand on ne sait pas combien de fois il faut répéter (on attend qu'une condition change).
+
+
+
+C'est ce qui est utilisé, par exemple, pour faire clignoter une LED ou parcourir une liste d'élèves.
+
+1. [retour au menu](algorithme)
+
+## definition algorithme
+
+Le mot "algorithme" vient du nom d'un mathématicien perse, Al-Khwarizmi. Un algorithme doit être :
+- **Lisible** : compréhensible par un humain (souvent écrit en "pseudo-code").
+- **Précis** : chaque étape ne doit pas être ambiguë.
+- **Fini** : il doit s'arrêter au bout d'un moment.
+
+C'est l'étape indispensable AVANT d'écrire du code dans un langage comme Python ou C# (Unity).
+
+1. [retour au menu](algorithme)
+
+## exercice algorithme
+
+Un exercice type consiste à prévoir la valeur finale d'une variable après l'exécution d'un programme :
+1. $A \leftarrow 10$
+2. $B \leftarrow 3$
+3. Tant que $A > 0$ :
+4.    $A \leftarrow A - B$
+On demande : "Quelle est la valeur de $A$ à la fin ?" ou "Combien de fois la boucle a-t-elle tourné ?".
+
+
+
+1. [retour au menu](algorithme)
