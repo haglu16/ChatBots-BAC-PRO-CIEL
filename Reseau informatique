@@ -117,22 +117,22 @@ L'avenir des réseaux est prometteur avec des technologies comme la 5G, l'IoT et
 
 **Ce QUIZZ est la pour savoir si tu a bien tout compris.**
 
-1. [c'est quoi un réseau informatique](menu6)
-2. [Combien il y a de catégorie de réseau informatique](menu7)
-3. [C'est quoi un Sous réseau](menu8)
+1) [c'est quoi un réseau informatique](menu6)
+2) [Combien il y a de catégorie de réseau informatique](menu7)
+3) [C'est quoi un Sous réseau](menu8)
 
 
 ## menu6
 !Bot: nomBot2
 
-1. [Des appareils informatiques interconnecté](menu9)
-2. [Des appareils relié ensemble](menu10)
+1) [Des appareils informatiques interconnecté](menu9)
+2) [Des appareils relié ensemble](menu10)
 
 ## menu9
 !Bot: nomBot2
 
 Cette réponse est <span style="color:green">*VRAI*</span>
-1. [retour au question](Menu5)
+1) [retour au question](Menu5)
 ## menu10
 !Bot: nomBot2
 
@@ -141,8 +141,8 @@ Cette réponse est <span style="color:red">*FAUSSE*</span>
 ## menu7
 !Bot: nomBot2
 
-1. [quatre catégories de réseaux](menu11)
-2. [cinq catégories de réseaux](menu12)
+1) [quatre catégories de réseaux](menu11)
+2) [cinq catégories de réseaux](menu12)
 
 ## menu11
 !Bot: nomBot2
@@ -159,8 +159,8 @@ Cette réponse est <span style="color:red">*FAUSSE*</span>
 ## menu8
 !Bot: nomBot2
 
-1. [une subdivision logique d'un réseau de taille plus petite](menu13)
-2. [une subdivision logique d'un réseau de taille plus importante](menu14)
+1) [une subdivision logique d'un réseau de taille plus petite](menu13)
+2) [une subdivision logique d'un réseau de taille plus importante](menu14)
 
 ## menu13
 !Bot: nomBot2
