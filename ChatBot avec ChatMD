@@ -30,41 +30,41 @@ Bienvenu dans cette leçons pour aprendre a se servire de ChatMD affin de crée 
 
 Quelle est la balise pour ajouter un lien dans le bot ?
 
-1. [a](question2)
-2. [_blank](question2)
-3. [iframe @score=calc(@score+1)](question2)
+1) [a](question2)
+2) [_blank](question2)
+3) [iframe @score=calc(@score+1)](question2)
 
 ## question2
 
 Quelle est la syntaxe pour faire un bouton basique ?
 
-1. [1.[Texte] (destination) @score=calc(@score+1)](question3)
-2. [aller a ..](quesion3)
-3. [YAML](question3)
+1) [1.[Texte] (destination) @score=calc(@score+1)](question3)
+2) [aller a ..](quesion3)
+3) [YAML](question3)
 
 ## question3
 
 Quelle balise permet de faire un boutons avec un lien ?
 
-1. ["1.[Texte] (destination)"](question4)
-2. [< a> @score=calc(@score+1)](question4)
-3. [< iframe>](question4)
+1) ["1.[Texte] (destination)"](question4)
+2) [< a> @score=calc(@score+1)](question4)
+3) [< iframe>](question4)
 
 ## question4
 
 Parmis ces 2 option la quelle permet d'ouvrir un lien dans une nouvelle fenêtre ?
 
-1. [blank_ @score=calc(@score+1)](question5)
-2. [parent_](question5)
+1) [blank_ @score=calc(@score+1)](question5)
+2) [parent_](question5)
 
 ## question5
 
 Quelle langage utilise CodiMD ?
 
-1. [python](score)
-2. [C#](score)
-3. [markdown @score=calc(@score+1)](score)
-4. [java](score)
+1) [python](score)
+2) [C#](score)
+3) [markdown @score=calc(@score+1)](score)
+4) [java](score)
 
 ## score
 
