@@ -1,0 +1,88 @@
+## PHYSIQUE-CHIMIE
+
+Cliquez sur une catégorie pour accéder directement au cours :
+
+### Partie CHIMIE
+1. [La quantité de matière](#quantité de matière)  
+2. [La concentration](#concentration)  
+3. [La réaction chimique](#réaction chimique)  
+
+### Partie PHYSIQUE
+4. [Forces et mouvement](#forces et mouvement)  
+5. [L'énergie](#énergie)  
+6. [Ondes et signaux](#ondes et signaux)  
+
+### Méthode
+7. [Exercice type](#exercice type)  
+
+---
+
+## quantité de matière
+
+Pour étudier un système chimique, il faut d'abord compter les entités (atomes ou molécules). C'est ce qu'on appelle la quantité de matière, exprimée en moles (mol). C'est elle qui permet de faire le lien entre le monde invisible des atomes et la pesée en laboratoire.
+
+Pour cela, on utilise des formules selon l'état du produit : pour un solide, on divise la masse par la masse molaire ($n = m/M$), tandis que pour un liquide, on utilise souvent la concentration.
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## concentration
+
+Une fois la quantité de matière connue, on détermine souvent la concentration d'une solution pour savoir si elle est "forte" ou "diluée".
+- Si la concentration est **élevée**, il y a beaucoup de soluté dans peu de liquide.
+- Si la concentration est **faible**, la solution est diluée.
+
+On utilise la formule $C = n / V$. Il est crucial de bien convertir le volume en Litres (L) pour que le résultat soit en mol/L. C'est cette donnée qui est utilisée lors des dosages pour vérifier la conformité d'un produit.
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## réaction chimique
+
+La réaction chimique est le résumé visuel de la transformation de la matière. Elle permet de voir comment les réactifs disparaissent pour former des produits.
+Elle se compose de trois éléments : 
+1. Les **réactifs** à gauche de la flèche.
+2. Les **produits** à droite de la flèche.
+3. Les **coefficients stœchiométriques** pour équilibrer l'équation.
+
+N'oubliez pas que "rien ne se perd, rien ne se crée" : il doit y avoir le même nombre d'atomes de chaque côté de la flèche.
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## forces et mouvement
+
+En mécanique, une force est une action qui peut modifier le mouvement d'un objet ou le déformer. On la représente toujours par une flèche appelée "vecteur".
+Dans les problèmes, on s'intéresse souvent au **Poids** (attraction terrestre) ou à la **Poussée**.
+
+Pour trouver l'accélération d'un objet, on regarde la somme des forces appliquées. Si les forces se compensent, l'objet reste immobile ou avance en ligne droite à vitesse constante : c'est le principe d'inertie.
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## énergie
+
+L'énergie est une grandeur qui mesure la capacité d'un système à produire une action (chaleur, mouvement, lumière). Elle s'exprime en Joules (J).
+En physique pro, on distingue souvent l'énergie cinétique (liée à la vitesse) et l'énergie potentielle (liée à la hauteur).
+
+Contrairement à ce qu'on dit souvent, l'énergie ne se "consomme" pas, elle se transforme d'une forme à une autre (par exemple, un moteur transforme l'énergie électrique en énergie mécanique).
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## ondes et signaux
+
+Les ondes permettent de transporter de l'énergie sans transporter de matière. Les deux exemples les plus courants sont le son et la lumière.
+- Une onde est définie par sa **fréquence** (en Hertz) et sa **période** (en secondes).
+- Plus la fréquence est élevée, plus le son est aigu.
+
+En optique, on étudie comment la lumière est déviée par des lentilles pour former une image nette sur un écran ou un capteur.
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
+
+## exercice type
+
+Pour réussir un exercice de physique-chimie, il faut suivre la méthode pas à pas :
+1. **Lister les données** de l'énoncé avec leurs unités.
+2. **Convertir** les valeurs (ex: grammes en kg, mL en L).
+3. **Choisir la formule** adaptée au chapitre.
+4. **Rédiger le calcul** et conclure par une phrase avec l'unité finale.
+
+Vérifiez toujours la cohérence de votre résultat : une masse négative ou une vitesse supérieure à la lumière sont des signes d'erreur de calcul !
+
+1. [retour au menu](PHYSIQUE-CHIMIE)
