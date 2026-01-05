@@ -8,24 +8,21 @@ favicon: https://minio.apps.education.fr/codimd-prod/uploads/huyvofwamj9m7m99q0e
 tags: Bac pro CIEL, chatbot
 ---
 
-## PHYSIQUE-CHIMIE
+Bienvenu sur le Chatbot pour la Physic chimie appui sur leçons pour acceder au leçons
+
+1. [leçons](menu)
+
+## menu
 
 Cliquez sur une catégorie pour accéder directement au cours :
 
-### Partie CHIMIE
-1. [La quantité de matière](#quantité de matière)  
-2. [La concentration](#concentration)  
-3. [La réaction chimique](#réaction chimique)  
-
-### Partie PHYSIQUE
-4. [Forces et mouvement](#forces et mouvement)  
-5. [L'énergie](#énergie)  
-6. [Ondes et signaux](#ondes et signaux)  
-
-### Méthode
-7. [Exercice type](#exercice type)  
-
----
+1. [La quantité de matière](quantité de matière)  
+2. [La concentration](concentration)  
+3. [La réaction chimique](réaction chimique)  
+4. [Forces et mouvement](forces et mouvement)  
+5. [L'énergie](énergie)  
+6. [Ondes et signaux](ondes et signaux)  
+7. [Exercice type](exercice type)  
 
 ## quantité de matière
 
@@ -33,7 +30,7 @@ Pour étudier un système chimique, il faut d'abord compter les entités (atomes
 
 Pour cela, on utilise des formules selon l'état du produit : pour un solide, on divise la masse par la masse molaire ($n = m/M$), tandis que pour un liquide, on utilise souvent la concentration.
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [Retour au menu](menu)
 
 ## concentration
 
@@ -43,7 +40,7 @@ Une fois la quantité de matière connue, on détermine souvent la concentration
 
 On utilise la formule $C = n / V$. Il est crucial de bien convertir le volume en Litres (L) pour que le résultat soit en mol/L. C'est cette donnée qui est utilisée lors des dosages pour vérifier la conformité d'un produit.
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
 
 ## réaction chimique
 
@@ -55,7 +52,7 @@ Elle se compose de trois éléments :
 
 N'oubliez pas que "rien ne se perd, rien ne se crée" : il doit y avoir le même nombre d'atomes de chaque côté de la flèche.
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
 
 ## forces et mouvement
 
@@ -64,7 +61,7 @@ Dans les problèmes, on s'intéresse souvent au **Poids** (attraction terrestre)
 
 Pour trouver l'accélération d'un objet, on regarde la somme des forces appliquées. Si les forces se compensent, l'objet reste immobile ou avance en ligne droite à vitesse constante : c'est le principe d'inertie.
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
 
 ## énergie
 
@@ -73,7 +70,7 @@ En physique pro, on distingue souvent l'énergie cinétique (liée à la vitesse
 
 Contrairement à ce qu'on dit souvent, l'énergie ne se "consomme" pas, elle se transforme d'une forme à une autre (par exemple, un moteur transforme l'énergie électrique en énergie mécanique).
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
 
 ## ondes et signaux
 
@@ -83,7 +80,7 @@ Les ondes permettent de transporter de l'énergie sans transporter de matière. 
 
 En optique, on étudie comment la lumière est déviée par des lentilles pour former une image nette sur un écran ou un capteur.
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
 
 ## exercice type
 
@@ -95,4 +92,4 @@ Pour réussir un exercice de physique-chimie, il faut suivre la méthode pas à 
 
 Vérifiez toujours la cohérence de votre résultat : une masse négative ou une vitesse supérieure à la lumière sont des signes d'erreur de calcul !
 
-1. [retour au menu](PHYSIQUE-CHIMIE)
+1. [retour au menu](menu)
