@@ -11,6 +11,7 @@ tags: Bac pro CIEL, chatbot
 Bienvenu sur le Chatbot pour la Physic chimie appui sur leçons pour acceder au leçons
 
 1. [leçons](menu)
+2. [Crédit](crd)
 
 ## menu
 
@@ -93,3 +94,7 @@ Pour réussir un exercice de physique-chimie, il faut suivre la méthode pas à 
 Vérifiez toujours la cohérence de votre résultat : une masse négative ou une vitesse supérieure à la lumière sont des signes d'erreur de calcul !
 
 1. [retour au menu](menu)
+
+## crd
+
+Hugo Hérault
