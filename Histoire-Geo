@@ -1,187 +1,171 @@
 ---
+title: Histoire-Géo
 clavier: true
-typewriter: false
-gestionGrosMots: true
-rechercheContenu: true
-avatarCercle: true
-avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_54ec41a786adeb71150969aa1d193b6e.png
+typewriter: true
 favicon: https://minio.apps.education.fr/codimd-prod/uploads/upload_54ec41a786adeb71150969aa1d193b6e.png
-tags: Histoire Geo, chatbot
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/upload_54ec41a786adeb71150969aa1d193b6e.png
 ---
 
-# Histoire Géographie
+# Histoire Geographie
 
-Bienvenue sur **Chatbot**, votre allié numéro 1 pour réviser l’Histoire-Géographie.
+> **Bienvenue dans le chat bot d'Histoire-Géographie.** 🌍
+> Je suis programmé pour t'aider à réviser les grands jalons de notre histoire, de la féodalité aux conflits mondiaux du XXe siècle.
 
-L’étude de l’Histoire nous permet de nous situer dans le passé, de comprendre les grands événements et de les analyser avec recul. En explorant le passé, l’élève développe une meilleure compréhension du présent et affine son esprit critique face à l’actualité et aux enjeux du monde d’aujourd’hui.
+1. [somaire](menu)
 
-👉 Voici quelques **leçons** qui vous permettront de mieux comprendre l’Histoire et la Géographie.
+## menu
 
-1. [Sommaire](Sommaire)
+ **Quel dossier historique souhaites-tu consulter ?**
 
-## Sommaire
+---
 
-1. [La Première Guerre mondiale (1914–1918)](La Première Guerre mondiale 1914–1918)
-2. [La Seconde Guerre mondiale (1939–1945)](La Seconde Guerre mondiale 1939–1945)
-5. [La Guerre froide (1947–1991)](La Guerre froide 1947–1991)
-6. [Les Trente Glorieuses (1945–1975)](Les Trente Glorieuses 1945–1975)
-7. [Grandes figures de l’Histoire de France](Grandes figures de l’Histoire de France)
+1. [⚔️ La Première Guerre Mondiale (1914-1918)](menu-1418)
+2. [🚀 La Seconde Guerre Mondiale (1939-1945)](menu-3945)
+3. [❄️ La Guerre Froide (1947-1991)](menu-froid)
+4. [📈 Les Trente Glorieuses (1945-1975)](menu-30g)
+5. [🏰 La Vie au Moyen-Âge](menu-moyenage)
+6. [🎮 Tester mes connaissances (QUIZ)](menu-quiz)
 
-## La Première Guerre mondiale 1914–1918
+---
 
-1. [Les combats et les événements clés](Les combats et les événements clés)
-2. [Retour au menu](Sommaire)
+## menu-1418
 
-## Les combats et les événements clés
+La Grande Guerre est le premier conflit industriel de l'histoire.
+- **Guerre de mouvement (1914) :** Les armées pensent que la guerre sera courte.
+- **Guerre de position (1915-1917) :** Les soldats s'enterrent dans les **tranchées**. C'est une guerre d'usure psychologique et physique.
+- **Guerre totale :** Toute l'économie est tournée vers l'effort de guerre (munitions, main d'œuvre féminine).
+- **Le tournant de 1917 :** L'entrée en guerre des USA et la sortie de la Russie changent la donne.
 
-La Première Guerre mondiale, qui s’est déroulée entre 1914 et 1918, fut l’un des conflits les plus dévastateurs de l’histoire moderne.
+1. [👉 Pourquoi la guerre a-t-elle commencé ?](info-sarajevo)
+2. [🔙 Retour au menu principal](menu)
 
-D’abord centrée sur l’Europe, elle s’est rapidement étendue à d’autres continents du fait des vastes empires coloniaux des puissances engagées.
+---
 
-Deux grandes coalitions s’y affrontèrent :
+## menu-3945
 
-- **Triple Entente** : France, Royaume-Uni, Russie (puis Italie et États-Unis)
-- **Triple Alliance** : Allemagne, Autriche-Hongrie, Empire ottoman
+Un conflit planétaire opposant les **Alliés** (USA, RU, URSS, France Libre) à l'**Axe** (Allemagne, Japon, Italie).
+- **Une guerre d'anéantissement :** Les populations civiles sont ciblées (bombardements massifs).
+- **La Shoah :** Le génocide industriel de 6 millions de Juifs et de Roms par le régime nazi.
+- **La fin du conflit :** L'usage de l'arme atomique en 1945 marque l'entrée dans une nouvelle ère.
 
-Le déclenchement de la guerre fut provoqué par l’assassinat de l’archiduc **François-Ferdinand d’Autriche** en juin 1914 à Sarajevo, entraînant une cascade de déclarations de guerre.
+1. [👉 En savoir plus sur la Shoah](info-shoah)
+2. [🔙 Retour au menu principal](menu)
 
-L’un des aspects les plus tragiques fut la **guerre de tranchées**, notamment sur le front occidental, où des millions de soldats vécurent et moururent dans des conditions inhumaines.
+---
 
-Cette guerre introduisit de **nouvelles technologies militaires** :
+## menu-froid
 
-- Mitrailleuses  
-- Chars d’assaut  
-- Artillerie lourde  
-- Aviation militaire  
-- Gaz toxiques  
+La Guerre Froide est un affrontement sans combat direct entre les deux superpuissances : les USA et l'URSS.
+- **La Bipolarité :** Le monde est divisé en deux blocs (OTAN vs Pacte de Varsovie).
+- **Les crises majeures :** Le blocus de Berlin, la guerre de Corée et la crise des missiles de Cuba.
+- **La fin :** La chute du mur de Berlin (1989) symbolise l'effondrement du bloc de l'Est.
 
-La guerre prit fin avec la signature du **traité de Versailles** en 1919, imposant de lourdes sanctions à l’Allemagne, ce qui alimenta le ressentiment et la montée des extrémismes menant à la Seconde Guerre mondiale.
+1. [👉 Détails sur le Mur de Berlin](info-berlin)
+2. [🔙 Retour au menu principal](menu)
 
-![Carte Première Guerre mondiale](https://minio.apps.education.fr/codimd-prod/uploads/upload_26bcb6af131ff2b39e630b68d206431c.png)
+---
 
-1. [Retour au menu](La Première Guerre mondiale 1914–1918)
+## menu-30g
 
-## La Seconde Guerre mondiale 1939–1945
+Les "Trente Glorieuses" (1945-1975) sont une période de croissance exceptionnelle en Occident.
+- **Progrès social :** Création de la Sécurité sociale, augmentation des salaires et accès aux loisirs.
+- **Société de consommation :** Équipement des foyers (réfrigérateur, télévision, voiture).
+- **Urbanisation :** Exode rural massif et construction des grands ensembles.
 
-Deux grands blocs s’opposaient :
+1. [🔙 Retour au menu principal](menu)
 
-- **Alliés** : États-Unis, Royaume-Uni, URSS, Chine, France  
-- **Axe** : Allemagne, Italie, Japon  
+---
 
-**Début** : 1er septembre 1939, invasion de la Pologne par l’Allemagne nazie  
-**Tournants majeurs** :  
-- Opération Barbarossa (1941)  
-- Attaque de Pearl Harbor (1941)
+## menu-moyenage
 
-1. [Les combats et les événement clés](Les combats et les événements clés II)
-2. [L'Holocauste](L'Holocauste)
-3. [Bilan et conséquences](Bilan et conséquences)
-4. [Retour au menu](Sommaire)
+La période médiévale est structurée par la **féodalité**.
+- **La Seigneurie :** Le cadre de vie des paysans qui travaillent sur la réserve ou les tenures.
+- **Les 3 Ordres :**
+    1. **Le Clergé :** Ceux qui prient.
+    2. **La Noblesse :** Ceux qui combattent (chevaliers).
+    3. **Le Tiers-État :** Ceux qui travaillent (90% de la population).
 
-## Les combats et les événements clés II
+1. [🔙 Retour au menu principal](menu)
 
-- Stalingrad  
-- El Alamein  
-- Midway  
+---
 
-Bombes atomiques sur **Hiroshima** et **Nagasaki**.
+## menu-quiz
 
-1. [Retour au menu](La Seconde Guerre mondiale 1939–1945)
+Prêt pour le défi ? 
+**Question 1 : Quel événement déclenche la Première Guerre Mondiale en juin 1914 ?**
+1. [📅 L'assassinat de l'archiduc à Sarajevo](quiz-vrai-1)
+2. [📅 L'invasion de la Pologne par l'Allemagne](quiz-faux-1)
 
-## L'Holocauste
+---
 
-Génocide orchestré par le régime nazi, causant la mort de **six millions de Juifs**, ainsi que d’autres victimes :
+## info-sarajevo
 
-- Roms  
-- Personnes handicapées  
-- Opposants politiques  
+Le 28 juin 1914, l'archiduc **François-Ferdinand**, héritier de l'Empire d'Autriche-Hongrie, est assassiné par un nationaliste serbe. Par le jeu des alliances automatiques, l'Europe bascule dans la guerre en un mois.
 
-1. [Retour au menu](La Seconde Guerre mondiale 1939–1945)
+1. [🔙 Retour 14-18](menu-1418)
 
-## Bilan et conséquences
+---
 
-- 70 à 85 millions de morts  
-- Création des **Nations Unies**  
-- Division du monde en deux blocs :
-  - Bloc occidental (USA)
-  - Bloc soviétique (URSS)
-- Début de la **Guerre froide**
-- Décolonisation
-- Reconstruction économique (**Plan Marshall**)
+## info-shoah
 
-1. [Retour au menu](La Seconde Guerre mondiale 1939–1945)
+C'est le génocide planifié par l'Allemagne nazie. Les victimes sont déportées dans des centres de mise à mort (comme Auschwitz) pour y être exterminées de façon industrielle dans des chambres à gaz. C'est un crime contre l'humanité.
 
-## La Guerre froide 1947–1991
+1. [🔙 Retour 39-45](menu-3945)
 
-1. [Les origines](Les origines)
-2. [Événements clés](Événements clés)
-3. [Retour au menu](Sommaire)
+---
 
-Conflit idéologique et géopolitique indirect entre :
+## info-berlin
 
-- **États-Unis** : capitalisme, démocratie  
-- **URSS** : communisme, régime autoritaire  
+Le mur a été construit en **1961** pour empêcher les habitants de l'Est (communiste) de fuir vers l'Ouest (capitaliste). Sa chute le 9 novembre 1989 annonce la fin de l'URSS.
 
-## Les origines
+1. [🔙 Retour Guerre Froide](menu-froid)
 
-Opposition idéologique née après la Seconde Guerre mondiale, accompagnée d’une lutte pour l’influence mondiale.
+---
 
-1. [Retour au menu](La Guerre froide 1947–1991)
+## quiz-vrai-1
 
-## Événements clés
+✅ **Excellent !** C'est l'élément déclencheur.
+**Question 2 : Qui a lancé l'Appel du 18 juin 1940 ?**
+1. [🇫🇷 Le Général de Gaulle](quiz-vrai-2)
+2. [🇫🇷 Le Maréchal Pétain](quiz-faux-2)
 
-- Division de l'Allemagne (RFA / RDA)  
-- Blocus de Berlin (1948–1949)  
-- Guerre de Corée (1950–1953)  
-- Crise de Cuba (1962)  
-- Guerre du Vietnam (1955–1975)  
-- Course aux armements nucléaires  
-- Détente (années 1970)  
-- Guerre d’Afghanistan (1979–1989)  
+---
 
-**Fin de la Guerre froide** : 1991, dissolution de l’URSS.
+## quiz-faux-1
 
-![Guerre froide](https://minio.apps.education.fr/codimd-prod/uploads/fb9de8dcc587cddb8300de124.png)
+❌ **Erreur.** L'invasion de la Pologne, c'est le 1er septembre 1939, soit le début de la Seconde Guerre Mondiale.
 
-1. [Retour au menu](La Guerre froide 1947–1991)
+1. [🔙 Retenter le Quiz](menu-quiz)
 
-## Les Trente Glorieuses 1945–1975
+---
 
-Période de prospérité économique en Europe et en Amérique du Nord après la Seconde Guerre mondiale.
+## quiz-vrai-2
 
-- Reconstruction et modernisation (Plan Marshall)  
-- Forte croissance économique  
-- Amélioration du niveau de vie  
-- Avancées sociales et technologiques  
-- Baby-boom  
-- Intégration européenne et mondialisation  
+✅ **Bravo !** De Gaulle a appelé à continuer le combat depuis Londres.
+**Dernière question : Quelle période désigne les Trente Glorieuses ?**
+1. [📈 1945 - 1975](quiz-vrai-3)
+2. [📉 1918 - 1939](quiz-faux-3)
 
-![Trente Glorieuses](https://minio.apps.education.fr/codimd-prod/uploads/fb9de8dcc587cddb8300de127.png)
+---
 
-1. [Retour au menu](Sommaire)
+## quiz-vrai-3
 
-## Grandes figures de l’Histoire de France
+🏆 **SCORE PARFAIT !** Tu es un véritable historien. Tu peux être fier de toi !
 
-1. [Napoléon Bonaparte](Napoléon Bonaparte)
-2. [Charles de Gaulle](Charles de Gaulle)
-3. [Retour au menu](Sommaire)
+1. [🔙 Menu Principal](menu)
 
-## Napoléon Bonaparte
+---
 
-1. Naissance en 1769 en Corse  
-2. Ascension militaire  
-3. Coup d’État du 18 Brumaire (1799)  
-4. Consulat et Code civil (1804)  
-5. Empire et guerres napoléoniennes  
-6. Défaite et exils (Elbe, Waterloo, Sainte-Hélène)  
-7. Héritage : Code Napoléon, État moderne  
+## quiz-faux-2
 
-1. [Retour au menu](Grandes figures de l’Histoire de France)
+❌ **Attention.** Pétain a signé l'armistice et a collaboré. C'est De Gaulle qui a lancé l'appel à la Résistance.
 
-## Charles de Gaulle
+1. [🔙 Retenter le Quiz](menu-quiz)
 
-1. Première Guerre mondiale  
-2. Modernisation de l’armée  
-3. Appel du 18
+---
 
-1. [Retour au menu](Grandes figures de l’Histoire de France)
+## quiz-faux-3
+
+❌ **Faux.** 1918-1939 correspond à "l'Entre-deux-guerres", une période de crise économique (1929) et de montée des tensions.
+
+1. [🔙 Retenter le Quiz](menu-quiz)
