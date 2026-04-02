@@ -1,0 +1,101 @@
+---
+clavier: false
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/n4z2cy9t4rm0x0ciy2oxurt9z.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/ey3wcqpp1dv9g8ybj28vdppr7.png
+tags: Bac pro CIEL, chatbot, Programmation, Langage C
+---
+
+Bienvenue sur le Chatbot dédié au Langage C. Appuie sur "leçons" pour explorer les bases du codage.
+
+1. [leçons](menu)
+2. [Crédit](crd)
+
+## menu
+
+Cliquez sur une catégorie pour accéder directement au cours :
+
+1. [Structure d'un programme](structure)  
+2. [Variables et types](variables)  
+3. [Conditions (If/Else)](conditions)  
+4. [Boucles (While/For)](boucles)  
+5. [Fonctions](fonctions)  
+6. [Tableaux et Pointeurs](pointeurs)  
+7. [Exercice type](exercice_type)  
+
+## structure
+
+Tout programme C commence par l'inclusion de bibliothèques et une fonction principale. 
+
+Exemple de base :
+`#include <stdio.h>`
+`int main() { ... return 0; }`
+
+`stdio.h` permet d'utiliser `printf()` pour afficher du texte à l'écran. C'est la porte d'entrée indispensable pour tout programe en C.
+
+1. [Retour au menu](menu)
+
+## variables
+
+En C, on doit déclarer le type de donnée avant de l'utiliser :
+- `int` : pour les nombres entiers (ex: 42)
+- `float` : pour les nombres à virgule (ex: 12.5)
+- `char` : pour un seul caractère (ex: 'A')
+
+Attention à la syntaxe : chaque instruction doit se terminer par un point-virgule `;`.
+
+1. [retour au menu](menu)
+
+## conditions
+
+Le programme prend des décisions grâce aux conditions. 
+On utilise `if` (si), `else if` (sinon si) et `else` (sinon).
+
+On utilise des opérateurs de comparaison :
+- `==` pour tester l'égalité.
+- `!=` pour la différence.
+- `&&` pour le "ET" logique.
+
+1. [retour au menu](menu)
+
+## boucles
+
+Les boucles servent à répéter une action.
+- **For** : Quand on sait combien de fois on veut répéter (ex: parcourir un tableau).
+- **While** : Tant qu'une condition est vraie (ex: attendre qu'un capteur change d'état).
+
+C'est crucial en électronique pour lire des données en continu.
+
+1. [retour au menu](menu)
+
+## fonctions
+
+Une fonction est un bloc de code réutilisable. Elle permet de structurer son programme et d'éviter les répétitions.
+Elle peut recevoir des paramètres et retourner une valeur (souvent un `int` pour indiquer si tout s'est bien passé).
+
+1. [retour au menu](menu)
+
+## pointeurs
+
+Le point fort du C ! Un pointeur est une variable qui contient l'adresse mémoire d'une autre variable.
+On utilise le symbole `*` pour déclarer un pointeur et `&` pour obtenir l'adresse. C'est essentiel pour manipuler directement le matériel et la mémoire de vos systèmes embarqués.
+
+1. [retour au menu](menu)
+
+## exercice_type
+
+Pour réussir un exercice de codage en C :
+1. **Analyser l'algorithme** : Écris d'abord la logique en français sur papier.
+2. **Indenter le code** : Aligne bien tes accolades `{ }` pour que le code soit lisible.
+3. **Vérifier les types** : Ne stocke pas un nombre à virgule dans un `int`.
+4. **Compiler souvent** : N'attends pas d'avoir écrit 50 lignes pour tester si ton code fonctionne.
+
+Une erreur de `;` est vite arrivée, sois rigoureux !
+
+1. [retour au menu](menu)
+
+## crd
+
+Hugo Hérault
