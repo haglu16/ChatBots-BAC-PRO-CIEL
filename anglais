@@ -1,0 +1,102 @@
+---
+clavier: false
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/sy71cksjxzyg6foiuiimxl1g8.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/me1kdhlrn3sqyb9yd7pnsyd3d.png
+tags: Bac pro CIEL, chatbot, Anglais, Technical English
+---
+
+Welcome! Bienvenue sur le Chatbot d'Anglais. Appuie sur "leçons" pour améliorer ton niveau.
+
+1. [leçons](menu)
+2. [Crédit](crd)
+
+## menu
+
+Cliquez sur une catégorie pour réviser :
+
+1. [Présent Simple & Continu](present)  
+2. [Le Passé (Preterit)](past)  
+3. [Vocabulaire Informatique](vocabulaire)  
+4. [Poser des questions](questions)  
+5. [Exprimer le futur](futur)  
+6. [Lecture de datasheet](datasheet)  
+7. [Exercice type](exercice type)  
+
+## present
+
+En anglais, on utilise deux présents :
+- **Present Simple** : Pour les habitudes ou les vérités générales. 
+  *Ex: "I code in C every day."* (On ajoute un **-s** à la 3ème personne : *He codes*).
+- **Present Continuous** (BE + -ING) : Pour une action en train de se passer. 
+  *Ex: "I am configuring the router right now."*
+
+1. [Retour au menu](menu)
+
+## past
+
+Le **Preterit** sert à parler d'une action terminée dans le passé.
+- Verbes réguliers : on ajoute **-ed** à la fin. (*Ex: I installed the software*).
+- Verbes irréguliers : il faut les apprendre par cœur ! (*Ex: I built a robot* -> de "to build").
+
+C'est essentiel pour rédiger un rapport d'activité ou de stage.
+
+1. [retour au menu](menu)
+
+## vocabulaire
+
+Voici quelques mots clés pour l'informatique :
+- **A device** : Un appareil / un dispositif.
+- **Wireless** : Sans fil.
+- **A motherboard** : Une carte mère.
+- **To troubleshoot** : Dépanner / Résoudre un problème.
+- **Embedded system** : Système embarqué.
+- **The power supply** : L'alimentation électrique.
+
+1. [retour au menu](menu)
+
+## questions
+
+Pour poser une question, on utilise souvent l'auxiliaire **DO/DOES** ou **BE**.
+- *Do you speak English?*
+- *Is the server online?*
+
+N'oubliez pas les mots en **WH-** : **W**hat (Quoi), **W**here (Où), **W**hen (Quand), **W**ho (Qui), **W**hy (Pourquoi), **H**ow (Comment).
+
+1. [retour au menu](menu)
+
+## futur
+
+Pour parler de l'avenir ou de projets :
+- **WILL** : Pour une décision soudaine ou une prédiction. (*Ex: Computers will be faster.*)
+- **BE GOING TO** : Pour un projet déjà décidé. (*Ex: I am going to study cybersecurity.*)
+
+1. [retour au menu](menu)
+
+## datasheet
+
+Savoir lire une documentation technique est primordial :
+- **Features** : Caractéristiques.
+- **Pinout** : Brochage (pour les composants électroniques).
+- **Ratings** : Valeurs nominales (tension, courant).
+- **Warning** : Avertissement.
+
+Cherchez toujours les mots transparents (ceux qui ressemblent au français) pour comprendre le sens global.
+
+1. [retour au menu](menu)
+
+## exercice type
+
+Pour réussir en anglais technique :
+1. **Ne pas traduire mot à mot** : Essayez de comprendre le contexte global de la phrase.
+2. **Utiliser des outils** : Aide-toi de dictionnaires en ligne comme *WordReference* ou *DeepL* pour le vocabulaire spécifique.
+3. **Apprendre les verbes irréguliers** : C'est la base pour bien s'exprimer au passé.
+4. **Pratiquer** : Passe tes logiciels ou tes jeux vidéo en anglais pour t'habituer !
+
+1. [retour au menu](menu)
+
+## crd
+
+Hugo Hérault
