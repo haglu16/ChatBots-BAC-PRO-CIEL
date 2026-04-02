@@ -1,0 +1,91 @@
+---
+clavier: false
+gestionGrosMots: true
+rechercheContenu: true
+avatar: https://minio.apps.education.fr/codimd-prod/uploads/oesctrzeit1rp60g7zo1f5s5y.png
+avatarCercle: true
+favicon: https://minio.apps.education.fr/codimd-prod/uploads/srj9i1vupag2vqet7u2o78o73.png
+tags: Cybersécurité, CTF, Hacking éthique, Bac pro CIEL
+---
+
+Bienvenue sur le Chatbot dédié aux CTF. Prêt à chasser des flags ? Appuie sur "leçons" pour découvrir les disciplines.
+
+1. [leçons](menu)
+2. [Crédit](crd)
+
+## menu
+
+Cliquez sur une catégorie pour explorer l'univers du hacking :
+
+1. [Web Exploitation](web)  
+2. [Cryptographie](crypto)  
+3. [Reverse Engineering](reverse)  
+4. [Forensics](forensics)  
+5. [OSINT](osint)  
+6. [Où s'entraîner ?](sites)  
+7. [Conseils de compétition](conseils)  
+
+## web
+
+Le Web Exploitation consiste à trouver des failles dans des applications ou serveurs web. On y retrouve souvent :
+- L'injection SQL (pour voler des bases de données).
+- Les failles XSS (pour exécuter du code dans le navigateur).
+- L'IDOR (accéder aux comptes des autres via l'URL).
+
+Il faut bien comprendre le HTML et le PHP pour réussir ici.
+
+1. [Retour au menu](menu)
+
+## crypto
+
+La cryptographie est l'art de chiffrer ou déchiffrer des messages. En CTF, tu devras :
+- Identifier des chiffrements anciens (César, Vigenère).
+- Analyser des clés modernes (RSA, AES).
+- Utiliser des outils comme **CyberChef** pour manipuler les données (Base64, Hexadécimal).
+
+1. [retour au menu](menu)
+
+## reverse
+
+Le Reverse Engineering (Rétro-ingénierie) consiste à comprendre comment un logiciel fonctionne sans avoir son code source.
+On utilise des outils comme **Ghidra** ou **IDA** pour transformer le langage machine en code lisible (souvent du C). L'objectif est souvent de trouver le "mot de passe" caché dans l'exécutable.
+
+1. [retour au menu](menu)
+
+## forensics
+
+La Forensics (Analyse numérique) consiste à retrouver des traces après une attaque.
+- Analyser des fichiers de capture réseau (.pcap) avec **Wireshark**.
+- Retrouver des fichiers cachés dans des images (Stéganographie).
+- Analyser des dumps de mémoire vive (RAM).
+
+1. [retour au menu](menu)
+
+## osint
+
+L'OSINT (Open Source Intelligence) est la recherche d'informations sur des sources ouvertes (Internet).
+Tu dois retrouver la localisation d'une photo, l'email d'une cible ou son pseudo sur les réseaux sociaux. C'est un travail d'enquêteur numérique.
+
+1. [retour au menu](menu)
+
+## sites
+
+Voici un site pour aider a progresser : 
+
+http://i-learning-project.fr:81/index.php
+
+1. [retour au menu](menu)
+
+## conseils
+
+Pour réussir tes compétitions :
+1. **Prendre des notes** : Note tout ce que tu trouves (Write-ups), même si ça ne marche pas tout de suite.
+2. **Utiliser Linux** : Installe Kali Linux ou Parrot OS pour avoir tous les outils sous la main.
+3. **Le travail d'équipe** : En CTF, on partage les idées, on ne reste pas bloqué seul.
+4. **Persévérer** : Le flag est souvent caché derrière une toute petite erreur.
+
+1. [retour au menu](menu)
+
+## crd
+
+Hugo Hérault
